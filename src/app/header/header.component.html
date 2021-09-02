@@ -1,0 +1,19 @@
+
+<div class="hed">
+
+
+    <div class="logo">
+
+        Company Logo
+
+    </div>
+
+   <div class="nvbr">
+    <div class="nav" *ngFor="let nav of navs">
+        <a [routerLink]="nav.link" >
+            {{ nav.name }}
+        </a>
+    </div>
+   </div>
+</div>
+

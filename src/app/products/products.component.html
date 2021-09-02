@@ -1,0 +1,22 @@
+
+
+<div class="container">
+
+    <div class="vNav">
+
+        <div class="nvbr">
+         <div class="nav" *ngFor="let nav of vNav_arr">
+             <a [routerLink]="nav.link" >
+                 {{ nav.name }}
+             </a>
+         </div>
+        </div>
+     </div>
+     
+     <div class="mainContent">
+     
+         <!-- <app-pokeballs></app-pokeballs> -->
+         <app-stones></app-stones>  
+         <!-- <app-portions></app-portions> -->
+     </div>
+</div>

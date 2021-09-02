@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+
+    width: 100%;
+
+    display: flex;
+
+}
+
+.vNav{
+
+    width: 20%;
+    height: 100%;
+    min-height: 70vh;
+    background-color: aliceblue;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 1s ease-in;
+
+    margin-top: 5rem;
+
+    position: relative;
+
+
+
+}
+
+.nvbr{
+
+    width: 90%;
+    height: 60vh;
+    background-color: rgb(127, 168, 255);
+
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+    position: absolute;
+
+
+    animation: slid 1.5s ease-in;
+
+}
+
+
+
+.nav{
+
+    display: flex;
+
+
+}
+
+.nav>a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    background-color: rgb(0, 45, 128);
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.mainContent{
+
+    width: 80%;
+}
+
+@keyframes slid {
+
+    0%{
+        width: 0;
+    }
+
+    100%{
+        width: 90%;
+    }
+    
+}
+

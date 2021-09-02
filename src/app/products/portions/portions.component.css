@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.cardcontainer{
+
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-row-gap: 5rem;
+
+    margin-top: 5rem;
+
+    justify-items: center;
+
+    
+}
+
+  
+
+.card{
+    width: 25rem;
+    height: 35rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+
+}
+
+    
+
+
+    .ccol{
+
+
+        height: 70%;
+        width: 100%;
+        background-color: teal;
+
+        
+        position: absolute;
+
+
+        transition: all 1s ease-in-out;
+        z-index: 1;
+
+        overflow: hidden;
+
+
+        clip-path: polygon(100% 85%, 50% 100%, 0 80%, 30% 35%, 30% 5%, 35% 0, 70% 0, 70% 35%);
+
+
+        
+    }
+
+            .ccol::after{
+
+                content: '';
+                position: absolute;
+                background-image: linear-gradient(90deg, white, grey);
+                height: 100%;
+                width: 100%;
+                
+               
+
+                clip-path: polygon(35% 0%, 75% 0%, 75% 35%, 95% 70%, 88% 70%, 67% 35%, 67% 15%, 60% 15%, 55% 20%, 55% 25%, 50% 28%, 45% 30%, 45% 38%, 32% 35%, 32% 22%, 25% 10% );
+
+            }
+
+           
+
+            .ccol::before{
+
+                content: '';
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.3);
+                height: 100%;
+                width: 100%;
+                bottom: 0;
+                filter: blur(5px);
+                clip-path: polygon(22% 47%, 0% 80%, 50% 100%, 100% 85%, 70% 35%, 92% 82%, 55% 90%, 50% 40%, 45% 90%, 5% 78%);
+            }
+
+
+
+          
+
+
+        .ccon{
+            position: absolute;
+
+
+            top: 60%;
+            width: 100%;
+            height: 40%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 3em 2em 2em 1em;
+
+            transition: all 1s ease-in-out;
+
+            background-color: blanchedalmond;
+
+            border-radius: 2rem;
+
+
+
+        }
+
+            .ccon>h1{
+
+            text-transform: capitalize;
+
+            transition: 0.4s ease;
+
+            z-index: 3;
+
+
+
+            }
+
+            .ccon>button{
+
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                border: none;
+                background-color: rgb(1, 12, 41);
+                margin-left: 85%;
+                color: white;
+                z-index: 3;
+
+
+               transition: all 1s ease-in-out;
+
+            }
+
+            .ccon>button>a{
+                text-decoration: none;
+                color: white;
+            }
+
+              
+
+        .cord{
+
+
+            width: 25rem;
+            height: 35rem;
+        
+            background-color: orange;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            display: none;
+
+
+        }
+
+
+
+.card:hover>.ccol{
+
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+
+    border-radius: 0;
+    clip-path: none;
+
+
+}
+
+
+
+.card:hover>.ccon{
+
+    position: absolute;
+    align-self: center;
+    top: 20%;
+    height: 60%;
+
+    color: white;
+
+}
+
+
+.card:hover>.ccon>h1{
+
+    font-size: 4rem;
+
+
+
+}
+
+.card:hover>.ccon>button{
+
+    height: 5rem;
+    width: 5rem;
+
+    margin-left: 40%;
+
+
+
+    text-transform: uppercase;
+}
+
+.card:hover>.ccol::after{
+
+    content: none;
+   
+}
+.card:hover>.ccol::before{
+
+    content: none;
+   
+}
+
+
+
+
+        .seemore{
+
+            display: none;
+        }
+
+        .seemore:target{
+            display: block;
+        }
+
+
+       
+
+
+      
+

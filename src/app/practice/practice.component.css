@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.cardcontainer{
+
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-row-gap: 5rem;
+
+    margin-top: 5rem;
+
+    justify-items: center;
+    
+}
+
+  
+
+.card{
+    width: 25rem;
+    height: 35rem;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+}
+
+    
+
+
+.card:nth-child(2){
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+
+
+
+
+}
+
+    .ccol{
+
+
+        height: 60%;
+        width: 100%;
+        background-color: teal;
+
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+
+        transition: all 1s ease-in-out;
+
+    }
+
+
+        .ccon{
+
+            position: absolute;
+            top: 60%;
+
+            height: 40%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1em 2em;
+
+            transition: all 1s ease-in-out;
+
+        }
+
+            .ccon>h1{
+
+            text-transform: capitalize;
+
+            transition: 0.4s ease;
+
+
+
+            }
+
+            .ccon>button{
+
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                border: none;
+                background-color: rgb(1, 12, 41);
+                margin-left: 85%;
+                color: white;
+
+               transition: all 1s ease-in-out;
+
+            }
+
+            .ccon>button>a{
+                text-decoration: none;
+                color: white;
+            }
+
+              
+
+        .cord{
+
+
+            width: 25rem;
+            height: 35rem;
+        
+            background-color: orange;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            display: none;
+
+
+        }
+
+
+
+.card:hover>.ccol{
+
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+
+    border-radius: 0;
+
+   
+
+
+
+}
+
+
+
+.card:hover>.ccon{
+
+    position: absolute;
+    align-self: center;
+    top: 20%;
+    height: 60%;
+
+    color: white;
+
+}
+
+
+.card:hover>.ccon>h1{
+
+    font-size: 4rem;
+
+
+
+}
+
+.card:hover>.ccon>button{
+
+    height: 5rem;
+    width: 5rem;
+
+    margin-left: 40%;
+
+
+    text-transform: uppercase;
+
+
+}
+
+
+
+        .seemore{
+
+            display: none;
+        }
+
+        .seemore:target{
+            display: block;
+        }
+
+
+       
+
+
+      
+
