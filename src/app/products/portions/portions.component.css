@@ -1,249 +1,186 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.cardcontainer{
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(20em, 1fr));
+  grid-gap: 3rem;
 
-    width: 90%;
-    height: 100%;
-    margin-left: 5%;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-row-gap: 5rem;
-
-    margin-top: 5rem;
-
-    justify-items: center;
-
-    
+  padding: 5%;
 }
 
-  
+.card {
+  width: 15em;
+  height: 20em;
 
-.card{
-    width: 25rem;
-    height: 35rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
 
-    display: flex;
-    flex-direction: column;
+  position: relative;
 
-    position: relative;
+  border-radius: 2em;
 
+  overflow: hidden;
 
+  /*  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); */
 }
 
-    
+.card-color {
+  transition: all 1s ease-in-out;
 
+  height: 65%;
+  width: 85%;
+  background-color: teal;
 
-    .ccol{
+  border-radius: 50%;
 
+  position: absolute;
 
-        height: 70%;
-        width: 100%;
-        background-color: teal;
+  transition: all 0.5s ease-in-out;
 
-        
-        position: absolute;
+  overflow: hidden;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-        transition: all 1s ease-in-out;
-        z-index: 1;
+.card-content {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  padding: 1em 2em;
 
-        overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
+  background-color: rgba(0, 0, 0, 0.2);
+  /* border-top-left-radius: 1em;
+                          border-top-right-radius: 1em; */
 
-        clip-path: polygon(100% 85%, 50% 100%, 0 80%, 30% 35%, 30% 5%, 35% 0, 70% 0, 70% 35%);
+  transition: all 1s ease-in-out;
 
+  border-radius: 2em;
+}
 
-        
-    }
+.card-content > button {
+  display: none;
+}
 
-            .ccol::after{
+.ccol {
+  height: 70%;
+  width: 100%;
+  background-color: teal;
 
-                content: '';
-                position: absolute;
-                background-image: linear-gradient(90deg, white, grey);
-                height: 100%;
-                width: 100%;
-                
-               
+  position: absolute;
 
-                clip-path: polygon(35% 0%, 75% 0%, 75% 35%, 95% 70%, 88% 70%, 67% 35%, 67% 15%, 60% 15%, 55% 20%, 55% 25%, 50% 28%, 45% 30%, 45% 38%, 32% 35%, 32% 22%, 25% 10% );
+  transition: all 1s ease-in-out;
 
-            }
+  overflow: hidden;
 
-           
+  clip-path: polygon(
+    100% 85%,
+    50% 100%,
+    0 80%,
+    30% 35%,
+    30% 5%,
+    35% 0,
+    70% 0,
+    70% 35%
+  );
+}
 
-            .ccol::before{
+.ccol::after {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(90deg, white, grey);
+  height: 100%;
+  width: 100%;
 
-                content: '';
-                position: absolute;
-                background-color: rgba(0, 0, 0, 0.3);
-                height: 100%;
-                width: 100%;
-                bottom: 0;
-                filter: blur(5px);
-                clip-path: polygon(22% 47%, 0% 80%, 50% 100%, 100% 85%, 70% 35%, 92% 82%, 55% 90%, 50% 40%, 45% 90%, 5% 78%);
-            }
+  clip-path: polygon(
+    35% 0%,
+    75% 0%,
+    75% 35%,
+    95% 70%,
+    88% 70%,
+    67% 35%,
+    67% 15%,
+    60% 15%,
+    55% 20%,
+    55% 25%,
+    50% 28%,
+    45% 30%,
+    45% 38%,
+    32% 35%,
+    32% 22%,
+    25% 10%
+  );
+}
 
+.ccol::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  filter: blur(5px);
+  clip-path: polygon(
+    22% 47%,
+    0% 80%,
+    50% 100%,
+    100% 85%,
+    70% 35%,
+    92% 82%,
+    55% 90%,
+    50% 40%,
+    45% 90%,
+    5% 78%
+  );
+}
 
+/* .card:hover > .ccol {
+  height: 100%;
+  width: 100%;
 
-          
-
-
-        .ccon{
-            position: absolute;
-
-
-            top: 60%;
-            width: 100%;
-            height: 40%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 3em 2em 2em 1em;
-
-            transition: all 1s ease-in-out;
-
-            background-color: blanchedalmond;
-
-            border-radius: 2rem;
-
-
-
-        }
-
-            .ccon>h1{
-
-            text-transform: capitalize;
-
-            transition: 0.4s ease;
-
-            z-index: 3;
-
-
-
-            }
-
-            .ccon>button{
-
-                width: 3rem;
-                height: 3rem;
-                border-radius: 50%;
-                border: none;
-                background-color: rgb(1, 12, 41);
-                margin-left: 85%;
-                color: white;
-                z-index: 3;
-
-
-               transition: all 1s ease-in-out;
-
-            }
-
-            .ccon>button>a{
-                text-decoration: none;
-                color: white;
-            }
-
-              
-
-        .cord{
-
-
-            width: 25rem;
-            height: 35rem;
-        
-            background-color: orange;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            display: none;
-
-
-        }
-
-
-
-.card:hover>.ccol{
-
-    height: 100%;
-    width: 100%;
-
-    position: absolute;
-
-    border-radius: 0;
-    clip-path: none;
-
-
+  border-radius: 0;
+  clip-path: none;
 }
 
 
+.card:hover > .ccol::after {
+  content: none;
+}
+.card:hover > .ccol::before {
+  content: none;
+} */
 
-.card:hover>.ccon{
+.card:hover > .card-color {
+  height: 70%;
+  width: 100%;
 
-    position: absolute;
-    align-self: center;
-    top: 20%;
-    height: 60%;
+  position: absolute;
 
-    color: white;
+  top: 20%;
 
+  border-radius: 0;
+  z-index: 1;
 }
 
+.card:hover > .card-content {
+  position: absolute;
+  align-self: center;
+  height: 100%;
 
-.card:hover>.ccon>h1{
+  color: white;
+  opacity: 0.6;
 
-    font-size: 4rem;
-
-
-
+  padding-bottom: 2em;
 }
-
-.card:hover>.ccon>button{
-
-    height: 5rem;
-    width: 5rem;
-
-    margin-left: 40%;
-
-
-
-    text-transform: uppercase;
-}
-
-.card:hover>.ccol::after{
-
-    content: none;
-   
-}
-.card:hover>.ccol::before{
-
-    content: none;
-   
-}
-
-
-
-
-        .seemore{
-
-            display: none;
-        }
-
-        .seemore:target{
-            display: block;
-        }
-
-
-       
-
-
-      
-

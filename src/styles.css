@@ -1,13 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-
-    background-color: rgba(19, 57, 75, 0.8);
-
+.container {
+  width: 100%;
 }
+
+.main {
+  width: 100%;
+}
+
+.side-box {
+  width: 15vw;
+  height: 50vh;
+  position: fixed;
+
+  top: 12vh;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.5em;
+  text-transform: capitalize;
+
+  z-index: 30;
+
+  background: linear-gradient(90deg, transparent, white);
+}
+
+.box-content {
+  height: 90%;
+
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-border {
+  width: 100%;
+  height: 5%;
+  background: red;
+  border-bottom-right-radius: 2em;
+}
+
+.bottom-border {
+  width: 100%;
+  height: 5%;
+  background: red;
+  border-top-right-radius: 2em;
+}
+
+
+
+

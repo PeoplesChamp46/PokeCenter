@@ -7,6 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+/*  heroList: string[] = [];
+
+  addHero(evt : any){
+        const val = evt.target.value;
+        this.heroList.push(val);
+  }
+ */
+
+  foods : string[] = [];
+
+  afterFoodAdd(food: any){
+    this.foods.push(food);
+    
+  }
   constructor() { }
 
   ngOnInit(): void {

@@ -5,122 +5,132 @@
 
 }
 
-.cardcontainer{
 
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
+
+.main{
+
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-row-gap: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr)) ;
+    grid-template-rows: repeat(auto-fill, minmax(20em, 1fr)) ;
+    grid-gap: 3rem;
 
-    margin-top: 5rem;
 
-    justify-items: center;
+    padding: 5%;
     
 }
 
   
 
-.card{
-    width: 25rem;
-    height: 35rem;
-
-    background-color: white;
+.card {
+    width: 15em;
+    height: 20em;
+  
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-
+  
     position: relative;
+  
+    border-radius: 2em;
+    overflow: hidden;
+  
+    /*   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); */
+  }
 
-}
+    .card-color{
 
+        height: 70%;
     
-
-
-    .ccol{
-
-
-        height: 60%;
-        width: 100%;
-        background-color: teal;
-
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
-
         transition: all 1s ease-in-out;
+
 
     }
 
 
-        .ccon{
+    .watermark{
+        width: 100%;
+        font-weight: bolder;
+        font-size: 800%;
+        
+        color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+
+        text-align: center;
+
+        z-index: 3;
+        transform: rotate(-90deg);
+
+        margin-left: -20%;
+        margin-top: 15%;
+
+        transition: 1s ease;
+
+    }
+
+
+        .card-content{
 
             position: absolute;
-            top: 60%;
+            bottom: 0%;
             width: 100%;
-            height: 40%;
+            height: 30%;
+            padding: 1em 2em;
+
 
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 1em 2em;
+
+
+            background-color: rgba(0, 0, 0, 0.2);
+            /* border-top-left-radius: 1em;
+            border-top-right-radius: 1em; */
 
             transition: all 1s ease-in-out;
 
-
-
         }
 
-            .ccon>h1{
+            
 
-            text-transform: capitalize;
+            .type-content{
 
-            transition: 0.4s ease;
+                display: flex;
+                justify-content: space-between;
+            }
 
+            .type{
 
+                width: 40%;
+                text-align: center;
 
             }
 
-            .ccon>button{
+            .type>p{
 
-                width: 3rem;
-                height: 3rem;
-                border-radius: 50%;
-                border: none;
-                background-color: rgb(1, 12, 41);
-                margin-left: 85%;
-                color: white;
+                border-radius: 1em;
+                font-weight: bolder;
+                height: 1.5em;
+                text-align: center;
+                
+            }
 
-               transition: all 1s ease-in-out;
+        
+
+
+
+            .card-content>button{
+
+               display: none;
 
             }
 
-            .ccon>button>a{
-                text-decoration: none;
-                color: white;
-            }
+      
 
               
 
-        .cord{
 
 
-            width: 25rem;
-            height: 35rem;
-        
-            background-color: orange;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            display: none;
-
-
-        }
-
-
-
-.card:hover>.ccol{
+.card:hover>.card-color{
 
     height: 100%;
     width: 100%;
@@ -129,35 +139,36 @@
 
     border-radius: 0;
 
-   
-
-
-
 }
 
 
 
-.card:hover>.ccon{
+.card:hover>.card-content{
 
     position: absolute;
     align-self: center;
-    top: 20%;
-    height: 60%;
+    height: 100%;
 
     color: white;
+    background: transparent;
+
+    padding-bottom: 2em;
 
 }
 
+.card:hover>.watermark{
 
-.card:hover>.ccon>h1{
-
-    font-size: 4rem;
-
-
-
+    margin-top: 35%;
 }
 
-.card:hover>.ccon>button{
+
+
+
+
+
+/* .card:hover>.card-content>button{
+
+    display: block;
 
     height: 5rem;
     width: 5rem;
@@ -169,7 +180,7 @@
     text-transform: uppercase;
 
 
-}
+} */
 
 
 

@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+
+  padding: 5%;
+}
+
+.detail {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+
+  min-width: 15em;
+
+  background-color: cadetblue;
+
+  position: relative;
+
+  padding: 5% 0;
+
+  border-radius: 2em;
+}
+
+.watermark {
+  width: 50%;
+  font-weight: bolder;
+  font-size: 1600%;
+
+  color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+
+  text-align: left;
+
+  z-index: 1;
+
+  transition: 0.5s ease;
+}
+
+img {
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+
+  z-index: 3;
+}
+
+.tt {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  background-color: chartreuse;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 5%;
+
+  position: relative;
+
+  /*   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); */
+
+  border: solid black 2px;
+
+  border-radius: 1em;
+}
+
+.card > img {
+  width: 90%;
+  height: 80%;
+  top: 0%;
+}
+
+.next {
+  animation: nextcard 1s;
+}
+
+@keyframes nextcard {
+  0% {
+    left: 150%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.back {
+  animation: backcard 1s;
+  z-index: 0;
+}
+
+@keyframes backcard {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    height: 150vh;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .detail {
+    grid-column: 1 / 5;
+  }
+
+  .card {
+    grid-row: 3 / 4;
+
+    max-height: 50em;
+  }
+
+  .back {
+    grid-column: 1 / 3;
+  }
+
+  .next {
+    grid-column: 3 / 5;
+  }
+}
+
+.btn {
+  width: 5em;
+  height: 2em;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+
+  position: absolute;
+  top: 0;
+}
+
+.namer {
+  width: 100%;
+  height: 2vh;
+  font-size: 2rem;
+
+  color: white;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stats {
+  width: 90%;
+  height: 60vh;
+  position: absolute;
+  bottom: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-left: 10%;
+
+  padding: 0 5%;
+}
+
+.labels{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.statgrup {
+  width: 50%;
+
+
+}
+
+.loadcon {
+  width: 100%;
+  height: 15%;
+
+  border-radius: 1em;
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.load {
+  max-width: 100%;
+
+  height: 100%;
+  background-color: chartreuse;
+  border-radius: 1em;
+
+  transition: width 1s ease-in;
+}

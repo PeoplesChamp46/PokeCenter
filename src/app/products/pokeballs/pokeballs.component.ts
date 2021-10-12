@@ -26,10 +26,10 @@ export enum pokeballName {
 export enum pokeballColor {
 
   pokeball = "red",
-  greatball = "darkorange",
-  ultraball = "steelblue",
-  masterball = "green",
-  safariball = "plum",
+  greatball = "blue",
+  ultraball = "yellow",
+  masterball = "purple",
+  safariball = "green",
   fighting = "darkred",
   poison = "purple",
   electric = "yellow",

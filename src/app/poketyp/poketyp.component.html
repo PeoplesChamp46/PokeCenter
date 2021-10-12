@@ -1,38 +1,31 @@
+<div class="main">
+  <div *ngFor="let poketyp of poketyps, let ix = index">
+    <div class="card">
+      <div
+        class="card-color"
+        [ngStyle]="{ backgroundColor: getColor(poketyp.eltyp) }"
+        (click)="doSome(poketyp.eltyp)"
+      >
+        <!-- [style.backgroundColor]="'baccols'" -->
+      </div>
 
-<div class="cardcontainer">
+      <div class="card-content">
+        <h1>
+          {{ poketyp.eltyp }}
+        </h1>
 
-    <div class="card" *ngFor="let poketyp of poketyps">
+        <p>
+          {{ poketyp.desc }}
+        </p>
 
-        <div class="ccol" [ngStyle]="{'backgroundColor' : getColor(poketyp.eltyp)}">  <!-- [style.backgroundColor]="'baccols'" -->
-    
-    
-        </div>  
-        
-        <div class="ccon">
-    
-            <h1>
-                {{ poketyp.eltyp }}
-            </h1>
-    
-            <p>
-                {{ poketyp.desc }}
-            </p>
-    
-            <button>           
-                        more
-            </button>
+        <button>more</button>
+        <ng-template>
 
-            <div class="seemore" #smore>
+            <app-pokelist></app-pokelist>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos officiis cupiditate tempore, 
-                    quod nulla suscipit eaque non voluptates necessitatibus velit possimus saepe vitae doloremque ad ut 
-                    recusandae est iusto et. Ad, repellendus neque ipsa aliquid aut iure vitae aperiam praesentium quidem 
-                    quod explicabo odio voluptatem distinctio eum nisi officia nihil alias nesciunt dignissimos omnis maxime 
-                    inventore facilis earum aspernatur. Laboriosam maxime optio nostrum, magni sapiente delectus accusantium. 
-                    Assumenda doloribus, quo incidunt officia perspiciatis cum repudiandae ex quae quod blanditiis omnis.
-                </p>
-            </div>
-        </div>
+            
+        </ng-template>
+      </div>
     </div>
+  </div>
 </div>

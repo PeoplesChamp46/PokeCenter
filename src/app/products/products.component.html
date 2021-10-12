@@ -1,22 +1,45 @@
 
 
-<div class="container">
+<div class="main">
 
-    <div class="vNav">
+    <div class="side-box">
+        <div class="top-border">
 
-        <div class="nvbr">
-         <div class="nav" *ngFor="let nav of vNav_arr">
-             <a [routerLink]="nav.link" >
-                 {{ nav.name }}
-             </a>
-         </div>
+        </div>
+
+        <div class="box-content">
+            
+
+                <div class="nvbr">
+                    <div class="nav" *ngFor="let nav of vNav_arr">
+                        <a [routerLink]="nav.link"
+                        routerLinkActive="active"
+                        >
+                            {{ nav.name }}
+                        </a>
+                    </div>
+                   </div>
+    
+            
+        </div>
+        <div class="bottom-border">
+
+        </div>
+
+    </div>
+
+      
+     </div>
+     
+     <div class="container">
+        <div class="main">
+     
+            <router-outlet>
+
+            </router-outlet>
         </div>
      </div>
-     
-     <div class="mainContent">
-     
-         <!-- <app-pokeballs></app-pokeballs> -->
-         <app-stones></app-stones>  
-         <!-- <app-portions></app-portions> -->
-     </div>
-</div>
+
+
+
+

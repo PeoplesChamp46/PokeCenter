@@ -16,7 +16,6 @@ export class PokemonsComponent implements OnInit {
 
     let colorType : any;
 
-    console.log(inputTypeColor);
 
 
     switch(inputTypeColor){
@@ -79,12 +78,35 @@ export class PokemonsComponent implements OnInit {
             colorType = typeColor.default;
               break;
     } 
-          console.log(colorType);
+          
           return colorType;
 
     
 
   }
+
+  seeMore : any;
+
+  result : any [] = [];
+
+  switchCard(ix : any){
+
+
+    this.pokemons_arr.find(x => {
+      if(x.id == ix){
+      this.seeMore = x.id;
+      console.log(this.seeMore);
+
+    }
+        /* this.seeMore = !this.seeMore; */
+      
+  })
+
+
+  
+}
+
+
 
 
 
@@ -95,7 +117,7 @@ export class PokemonsComponent implements OnInit {
   ngOnInit(): void {
     this.pokemons_arr = this.pokemonService.pokemons;
 
-    console.log(this.pokemons_arr);
+
   }
 
 }

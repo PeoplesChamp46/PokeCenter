@@ -1,38 +1,4 @@
 
-<div class="cardcontainer">
-
-    <div class="card" *ngFor="let pokemon of pokemons_arr">
-
-        <div class="ccol" [ngStyle]="{'backgroundColor' : getColor(pokemon.type[0])}">  <!-- [style.backgroundColor]="'baccols'" -->
-    
-    
-        </div>  
-        
-        <div class="ccon">
-    
-            <h1>
-                {{ pokemon.name.english }}
-            </h1>
-    
-            <p *ngFor="let typeData of pokemon.type">
-                {{ typeData }}
-            </p>
-    
-            <button>           
-                        more
-            </button>
-
-            <div class="seemore" #smore>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos officiis cupiditate tempore, 
-                    quod nulla suscipit eaque non voluptates necessitatibus velit possimus saepe vitae doloremque ad ut 
-                    recusandae est iusto et. Ad, repellendus neque ipsa aliquid aut iure vitae aperiam praesentium quidem 
-                    quod explicabo odio voluptatem distinctio eum nisi officia nihil alias nesciunt dignissimos omnis maxime 
-                    inventore facilis earum aspernatur. Laboriosam maxime optio nostrum, magni sapiente delectus accusantium. 
-                    Assumenda doloribus, quo incidunt officia perspiciatis cum repudiandae ex quae quod blanditiis omnis.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+   <router-outlet>
+       
+   </router-outlet>

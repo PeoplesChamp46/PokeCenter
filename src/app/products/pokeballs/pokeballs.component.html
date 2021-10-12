@@ -1,38 +1,23 @@
-
-<div class="cardcontainer">
-
-    <div class="card" *ngFor="let pokeball of pokeball_arr">
-
-        <div class="ccol" [ngStyle]="{'backgroundColor' : getColor(pokeball.name)}">  <!-- [style.backgroundColor]="'baccols'" -->
-    
-    
-        </div>  
-        
-        <div class="ccon">
-    
-            <h1>
-                {{ pokeball.name }}
-            </h1>
-    
-            <p >
-                {{ pokeball.catchrate }}
-            </p>
-    
-            <button>           
-                        more
-            </button>
-
-            <div class="seemore" #smore>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos officiis cupiditate tempore, 
-                    quod nulla suscipit eaque non voluptates necessitatibus velit possimus saepe vitae doloremque ad ut 
-                    recusandae est iusto et. Ad, repellendus neque ipsa aliquid aut iure vitae aperiam praesentium quidem 
-                    quod explicabo odio voluptatem distinctio eum nisi officia nihil alias nesciunt dignissimos omnis maxime 
-                    inventore facilis earum aspernatur. Laboriosam maxime optio nostrum, magni sapiente delectus accusantium. 
-                    Assumenda doloribus, quo incidunt officia perspiciatis cum repudiandae ex quae quod blanditiis omnis.
-                </p>
-            </div>
-        </div>
+<div class="main">
+  <div class="card" *ngFor="let pokeball of pokeball_arr">
+    <div
+      class="card-color ccol"
+      [ngStyle]="{ backgroundColor: getColor(pokeball.name) }"
+    >
+      <!-- [style.backgroundColor]="'baccols'" -->
+      <img src="../../../assets/pokeball123.png" alt="" />
     </div>
+
+    <div class="card-content">
+      <h1>
+        {{ pokeball.name }}
+      </h1>
+
+      <p>
+        {{ pokeball.catchrate }}
+      </p>
+
+      <button>more</button>
+    </div>
+  </div>
 </div>

@@ -5,8 +5,18 @@
     box-sizing: border-box;
 }
 
-body{
+.appcomp{
 
-    background-color: rgb(77, 149, 182);
-    
+    width: 100%;
+    height: 100%;
+
 }
+
+.container{
+
+    padding-left: 15%;
+}
+
+
+
+

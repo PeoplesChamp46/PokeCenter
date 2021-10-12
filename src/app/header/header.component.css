@@ -1,76 +1,64 @@
-*{
-
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.container {
+  width: 15vw;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(1, 37, 70, 0.5), transparent); */
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
 
+  position: fixed;
 
-.hed{
-
-    width: 100%;
-    height: 10vh;
-    background-image: linear-gradient(rgba(1, 37, 70, 0.5), transparent);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+  z-index: 20;
 }
 
+.logo {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  text-align: end;
+}
 
-        .logo{
+.nvbr {
+  width: 15vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-            font-size: 3rem;
-            font-weight: bolder;
-            color: white;
-            
-        }
+.nav {
+  width: 100%;
+  height: 100%;
 
-        .nvbr{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-            width: 50%;
-            display: flex;
-            justify-content: space-between;
-        }
+.nav > a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 2vw;
+  font-weight: bolder;
+}
 
-        .nav>a{
-
-            text-decoration: none;
-            font-size: 2rem;
-            color: white;
-            text-transform: uppercase;
-            margin-right: 0;
-        }
-
-/* 
-
-        .nav{
-
-            width: 40%;
-
-        }
-
-            .nav>ul{
-                list-style: none;
-                display: flex;
-
-                justify-content: space-evenly;
-
-            }
-
-
-                .nav>ul>li{
-
-                    
-                    
-
-                }
-
-                        .nav>ul>li>a{
-
-                            text-decoration: none;
-                            color: white;
-                            text-transform: uppercase;
-                            font-size: 1.5em;
-                        } */
+.nav:hover {
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.2)
+  );
+}

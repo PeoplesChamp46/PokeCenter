@@ -1,0 +1,135 @@
+<div class="main">
+  <div
+    class="detail"
+    [ngStyle]="{ backgroundColor: getColor(result?.type[0].toLowerCase()) }"
+  >
+    <button (click)="backClick()" class="btn">< BACK</button>
+
+    <div class="namer">
+      <h1>
+        {{ result?.name.english }}
+      </h1>
+    </div>
+
+    <div class="watermark">#{{ result?.id }}</div>
+
+    <img
+      src="../../../assets/images/{{ this.imgid(result?.id, 3) + '.png' }}"
+      alt=""
+    />
+
+    <div class="stats">
+      <div class="statgrup">
+        <div class="labels">
+          <h1>HP</h1>
+        <h1>
+          {{ result?.base.HP }}
+        </h1>
+        </div>
+        <div class="loadcon">
+          <div class="load" [ngStyle]="{ width: result?.base.HP + '%' }"></div>
+        </div>
+        
+      </div>
+      <div class="statgrup">
+        <div class="labels">
+          <h1>Attack</h1>
+        <h1>
+          {{ result?.base.Attack }}
+        </h1>
+        </div>
+        <div class="loadcon">
+          <div
+            class="load"
+            [ngStyle]="{ width: result?.base.Attack + '%' }"
+          ></div>
+        </div>
+       
+      </div>
+      <div class="statgrup">
+       <div class="labels">
+        <h1>Defense</h1>
+        <h1>
+          {{ result?.base.Defense }}
+        </h1>
+       </div>
+        <div class="loadcon">
+          <div
+            class="load"
+            [ngStyle]="{ width: result?.base.Defense + '%' }"
+          ></div>
+        </div>
+       
+      </div>
+      <div class="statgrup">
+        <div class="labels">
+          <h1>Speed</h1><h1>
+            {{ result?.base.Speed }}
+          </h1>
+        </div>
+        <div class="loadcon">
+          <div
+            class="load"
+            [ngStyle]="{ width: result?.base.Speed + '%' }"
+          ></div>
+        </div>
+        
+      </div>
+      <div class="statgrup">
+        <div class="labels">
+          <h1>Special Attack</h1>
+        <h1>
+          {{ result?.base.SplAttack }}
+        </h1>
+        </div>
+
+        <div class="loadcon">
+          <div
+            class="load"
+            [ngStyle]="{ width: result?.base.SplAttack + '%' }"
+          ></div>
+        </div>
+        
+      </div>
+      <div class="statgrup">
+        <div class="labels">
+          <h1>Special Defense</h1>
+        <h1>
+          {{ result?.base.SplDefense }}
+        </h1>
+        </div>
+        <div class="loadcon">
+          <div
+            class="load"
+            [ngStyle]="{ width: result?.base.SplDefense + '%' }"
+          ></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="card back"
+    (click)="previus()"
+    [ngStyle]="{ backgroundColor: getColor(result1.type[0].toLowerCase()) }"
+  >
+    <img
+      src="../../../assets/images/{{ this.imgid(result?.id - 1, 3) + '.png' }}"
+      alt=""
+    />
+    <h1>#{{ result1.id }} {{ result1.name.english }}</h1>
+  </div>
+
+  <div
+    class="card next"
+    (click)="next()"
+    [ngStyle]="{ backgroundColor: getColor(result2.type[0].toLowerCase()) }"
+  >
+    <img
+      src="../../../assets/images/{{ this.imgid(result?.id + 1, 3) + '.png' }}"
+      alt=""
+    />
+    <h1>#{{ result2.id }} {{ result2.name.english }}</h1>
+  </div>
+</div>

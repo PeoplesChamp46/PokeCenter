@@ -1,24 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 
 
-export enum elementtype { 
 
-  water = 'water',
-  fire = 'fire',
-  air = 'air',
-  land = 'land',
-  space = 'space'
- }
-
- export enum elecol {
-
-  water = 'steelblue',
-  fire = 'orangered',
-  air = 'grey',
-  land = 'sienna',
-  space = 'midnightblue',
-  default = 'black'
- }
 
 @Component({
   selector: 'app-practice',
@@ -27,68 +10,14 @@ export enum elementtype {
 })
 export class PracticeComponent implements OnInit {
 
-  getColor(eletyp: string){
+  /* @Input() list: any; */
 
-    let colorType : string;
+  @Output() foodEvt= new EventEmitter;
 
-    switch(eletyp){
 
-      case elementtype.water:
-        colorType = elecol.water;
-        break;
-        case elementtype.fire:
-          colorType = elecol.fire;
-          break;
-          case elementtype.land:
-        colorType = elecol.land;
-        break;
-        case elementtype.air:
-        colorType = elecol.air;
-        break;
-        case elementtype.space:
-        colorType = elecol.space;
-        break;
-          default:
-            colorType = elecol.default;
-              break;
-    } 
-          return colorType;
-    
-
+  addToFood(evt: any){
+    this.foodEvt.emit(evt.target.value);
   }
-
-
-
-  cards = [
-    {
-      baccol : 'steelblue',
-      eltyp : 'water',
-      desc :  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ipsum iusto officia et ipsa. Omnis cupiditate ipsum iusto officia et ipsa.',
-    },
-    {
-      baccol : 'orangered',
-      eltyp : 'fire',
-      desc :  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ipsum iusto officia et ipsa. Omnis cupiditate ipsum iusto officia et ipsa.',
-    },    
-    {
-      baccol : 'grey',
-      eltyp : 'air',
-      desc :  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ipsum iusto officia et ipsa. Omnis cupiditate ipsum iusto officia et ipsa.',
-    },    
-    {
-      baccol : 'sienna',
-      eltyp : 'land',
-      desc :  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ipsum iusto officia et ipsa. Omnis cupiditate ipsum iusto officia et ipsa.',
-    },
-    {
-      baccol : 'midnightblue',
-      eltyp : 'space',
-      desc :  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate ipsum iusto officia et ipsa. Omnis cupiditate ipsum iusto officia et ipsa.',
-    }
-  ]
-
-
-
 
   
   constructor() { }

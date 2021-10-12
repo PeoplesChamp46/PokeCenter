@@ -18,9 +18,9 @@ export enum stoneName {
 
 export enum stoneColor {
 
-  fire = "palegoldenrod",
-  water = "darkorange",
-  thunder = "steelblue",
+  fire = "darkorange", 
+  water = "steelblue",
+  thunder = "palegoldenrod",
   leaf = "green",
   moon = "plum",
   sun = "darkred",

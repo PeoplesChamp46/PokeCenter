@@ -13,22 +13,22 @@ export class HeaderComponent implements OnInit {
   navs = [
     {
       name : 'home',
-      link : '../home/home.component.html',
+      link : 'home',
       status : 'true',
     },
     {
       name : 'products',
-      link : '../products/products.component.html',
+      link : 'product',
       status : 'false',
     },
     {
       name : 'pokemons',
-      link : '../pokemons/pokemons.component.html',
+      link : 'pokemon',
       status : 'false'
     },
     {
       name : 'poketypes',
-      link : '../poketyp/poketyp.component.html',
+      link : 'poketyp',
       status : 'false'
     },
     {

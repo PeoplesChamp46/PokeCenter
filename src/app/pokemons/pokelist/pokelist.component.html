@@ -1,0 +1,112 @@
+<div class="main" [ngStyle]="{ backgroundColor : search_color }">
+  <div class="side-box">
+    <div class="top-border"></div>
+
+    <div class="box-content">
+      <div class="search-content">
+        <input
+          type="text"
+          #search
+          onfocus="this.value=''"
+          (keyup)="searchSome(search.value)"
+        />
+        <button (click)="searchSome(search.value)">search</button>
+      </div>
+
+      <div class="type-content" (click)="showType()">
+        <div class="tab">
+          <h4>Filter By Type </h4>
+          <h3>+</h3>
+        </div>
+        <ng-template [ngIf]="typeshow">
+          <div
+          class="tag"
+          (click)="doSome(Type.type)"
+          *ngFor="let Type of typePoke"
+          [ngStyle]="{backgroundColor : Type.color}"
+        >
+          {{ Type.type }}
+        </div>
+        </ng-template>
+      </div>
+      <div class="type-content" (click)="showType()">
+        <div class="tab">
+          <h4>Filter By Gen </h4>
+          <h3>+</h3>
+        </div>
+        <ng-template [ngIf]="typeshow">
+          <div
+          class="tag"
+          (click)="doSome(Type.type)"
+          *ngFor="let Type of typePoke"
+          [ngStyle]="{backgroundColor : Type.color}"
+        >
+          {{ Type.type }}
+        </div>
+        </ng-template>
+      </div>
+    </div>
+    <div class="bottom-border"></div>
+  </div>
+  <button class="clear" *ngIf="search_arr.length != 0" (click)="clear()">back</button>
+
+  <div
+    class="gen"
+    *ngFor="
+      let pokemon of search_arr.length != 0 ? search_arr : pokemons_arr;
+      let ix = index
+    "
+  >
+
+    <div
+      class="wishlist"
+      (click)="wishlist()"
+      [ngStyle]="{ backgroundColor: wishicon == true ? 'red' : 'white' }"
+    ></div>
+    <div class="card" (click)="switchCard(ix)">
+      <img
+        src="../../../assets/images/{{ this.imgid(pokemon.id, 3) + '.png' }}"
+        alt=""
+      />
+
+      <div
+        class="card-color"
+        [ngStyle]="{ backgroundColor: getColor(pokemon.type[0]) }"
+      >
+        <!-- [style.backgroundColor]="'baccols'" -->
+      </div>
+
+      <div class="card-content">
+        <div class="watermark">
+          {{ pokemon.id }}
+        </div>
+        <h1>
+          {{ pokemon.name.english }}
+        </h1>
+
+        <div class="type-content">
+          <div
+            class="type"
+            *ngFor="let typeData of pokemon.type; let i = index"
+          >
+            <p
+              *ngIf="i == 0"
+              [ngStyle]="{ backgroundColor: getColor(pokemon.type[0]) }"
+            >
+              {{ typeData }}
+            </p>
+
+            <p
+              *ngIf="i == 1"
+              [ngStyle]="{ backgroundColor: getColor(pokemon.type[1]) }"
+            >
+              {{ typeData }}
+            </p>
+          </div>
+        </div>
+
+        <button>more</button>
+      </div>
+    </div>
+  </div>
+</div>

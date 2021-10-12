@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(20em, 1fr));
+  grid-gap: 1em;
+  padding: 5%;
+}
+
+.gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 15em;
+  height: 20em;
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  border-radius: 2em;
+
+  /*   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5); */
+}
+
+img {
+  height: 70%;
+  z-index: 5;
+
+  transition: 0.5s ease;
+}
+
+.cardfull {
+  /* width: 60rem;
+   height: 50rem; */
+
+  justify-self: start;
+
+  position: relative;
+
+  background-color: chartreuse;
+}
+
+.cardfull > .card-content {
+  width: 60em;
+  height: 30%;
+  padding: 1em 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  /* border-top-left-radius: 1em;
+    border-top-right-radius: 1em; */
+
+  transition: all 1s ease-in-out;
+}
+
+.card-color {
+  height: 0;
+
+  transition: all 0.5s ease-in-out;
+
+  border-radius: 2em;
+}
+
+.watermark {
+  width: 100%;
+  font-weight: bolder;
+  font-size: 700%;
+
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+
+  text-align: left;
+  top: -20%;
+  left: 10%;
+
+  z-index: 1;
+
+  transition: 0.5s ease;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 30%;
+  padding: 1em 2em;
+
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  /* border-top-left-radius: 1em;
+            border-top-right-radius: 1em; */
+
+  transition: all 0.5s ease-in-out;
+}
+
+.type-content {
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.card-content > h1 {
+  z-index: 3;
+}
+
+.type {
+  width: 40%;
+  text-align: center;
+}
+
+.type > p {
+  width: 100%;
+  border-radius: 1em;
+  font-weight: bolder;
+  height: 1.5em;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content > button {
+  display: none;
+}
+
+.card:hover > .card-color {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+
+  border-radius: 2em;
+}
+
+.card:hover > .card-content {
+  position: absolute;
+  align-self: center;
+  height: 100%;
+
+  color: white;
+  background: transparent;
+
+  padding-bottom: 2em;
+}
+.card:hover > .card-content > .watermark {
+  top: 10%;
+  left: 5%;
+  font-size: 800%;
+
+  color: white;
+}
+.card:hover > img {
+  height: 60%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30%;
+}
+
+.seemore {
+  display: none;
+}
+
+.seemore:target {
+  display: block;
+}
+
+.box-content{
+
+  padding: 0.5em 0 0 0.5em;
+
+}
+
+.search-content {
+  height: 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-content {
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.head-search {
+  width: 100%;
+  height: 10%;
+  padding: 0 10%;
+}
+
+input {
+  width: 100%;
+  height: 3em;
+  background: white;
+  border-radius: 1em;
+  border: black 3px solid;
+
+  margin-right: 5%;
+}
+
+button {
+  width: 7em;
+  height: 3em;
+  border-radius: 1em;
+  border: black 3px solid;
+
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 1em;
+}
+
+.tab{
+
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  border: black solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.tag {
+  border-radius: 0.2em;
+  border: black 3px solid;
+  text-transform: capitalize;
+  margin-top: 0.4em;
+}
+
+.clear{
+
+  width: 8em;
+  height: 3em;
+  position: absolute;
+  top: 0;
+}
