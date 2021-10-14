@@ -33,18 +33,20 @@
 
 .nav>a{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     text-decoration: none;
     color: black;
     text-transform: capitalize;
     font-size: 1.5rem;
     font-weight: bolder;
-    background-color: white;
     border: solid 5px black;
     width: 100%;
-    padding: 1rem;
     margin-bottom: 0.5rem;
     text-align: center;
-
+    height: 2.5em;
     border-radius: 0.5em;
 }
 

@@ -13,6 +13,10 @@
 
 .main {
   width: 100%;
+  min-height: 55vh;
+  /* background-color: white; */
+  border-radius: 2em;
+
 }
 
 .side-box {
@@ -29,9 +33,10 @@
   font-size: 1.5em;
   text-transform: capitalize;
 
-  z-index: 30;
+  z-index: 20;
 
   background: linear-gradient(90deg, transparent, white);
+
 }
 
 .box-content {
@@ -44,20 +49,49 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 }
 
 .top-border {
   width: 100%;
   height: 5%;
+  position: relative;
+  
+}
+
+.top-border::before{
+
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background: red;
+  z-index: 1;
   border-bottom-right-radius: 2em;
+
+
 }
 
 .bottom-border {
   width: 100%;
   height: 5%;
+  position: relative;
+
+
+}
+
+.bottom-border::before{
+
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background: red;
+
+  z-index: 1;
   border-top-right-radius: 2em;
+
 }
 
 

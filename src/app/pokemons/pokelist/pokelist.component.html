@@ -1,54 +1,72 @@
-<div class="main" [ngStyle]="{ backgroundColor : search_color }">
+<div class="main" [ngStyle]="{ backgroundColor: search_color }">
   <div class="side-box">
-    <div class="top-border"></div>
+    <div class="top-border" [ngStyle]="{ backgroundColor: search_color }"></div>
 
-    <div class="box-content">
-      <div class="search-content">
-        <input
-          type="text"
-          #search
-          onfocus="this.value=''"
-          (keyup)="searchSome(search.value)"
-        />
-        <button (click)="searchSome(search.value)">search</button>
-      </div>
-
-      <div class="type-content" (click)="showType()">
-        <div class="tab">
-          <h4>Filter By Type </h4>
-          <h3>+</h3>
-        </div>
-        <ng-template [ngIf]="typeshow">
-          <div
-          class="tag"
-          (click)="doSome(Type.type)"
-          *ngFor="let Type of typePoke"
-          [ngStyle]="{backgroundColor : Type.color}"
-        >
-          {{ Type.type }}
-        </div>
-        </ng-template>
-      </div>
-      <div class="type-content" (click)="showType()">
-        <div class="tab">
-          <h4>Filter By Gen </h4>
-          <h3>+</h3>
-        </div>
-        <ng-template [ngIf]="typeshow">
-          <div
-          class="tag"
-          (click)="doSome(Type.type)"
-          *ngFor="let Type of typePoke"
-          [ngStyle]="{backgroundColor : Type.color}"
-        >
-          {{ Type.type }}
-        </div>
-        </ng-template>
-      </div>
+    <div class="box-content" [ngStyle]="{ backgroundColor: search_color }">
+      <ul>
+        <li>
+          <div class="filter search-content">
+            <input
+              type="text"
+              #search
+              onfocus="this.value=''"
+              (keyup)="searchSome(search.value)"
+            />
+            <button (click)="searchSome(search.value)" class="sercher">
+              search
+            </button>
+          </div>
+        </li>
+        <li>
+          <div class="filter content-type">
+            <div class="tab" (click)="showType()">
+              <h4>Filter By Type</h4>
+              <h3>+</h3>
+            </div>
+            <ng-template [ngIf]="typeshow && !genshow">
+              <div
+                class="tag"
+                (click)="doSome(Type.type)"
+                *ngFor="let Type of typePoke"
+                [ngStyle]="{ backgroundColor: Type.color }"
+              >
+                {{ Type.type }}
+              </div>
+            </ng-template>
+          </div>
+        </li>
+        <li>
+          <div class="filter content-gen">
+            <div
+              class="tab"
+              (click)="showGen()"
+              [ngStyle]="{ 'margin-top': !typeshow  ? 0 : '22vh' }"
+            >
+              <h4>Filter By Gen</h4>
+              <h3>+</h3>
+            </div>
+            <ng-template [ngIf]="genshow && !typeshow">
+              <div
+                class="tag"
+                (click)="doGen(gen.gen_id)"
+                *ngFor="let gen of gen_arr"
+                [ngStyle]="{ backgroundColor: gen.color }"
+              >
+                generation {{ gen.gen_id }}
+              </div>
+            </ng-template>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="bottom-border"></div>
+    <div
+      class="bottom-border"
+      [ngStyle]="{ backgroundColor: search_color }"
+    ></div>
   </div>
-  <button class="clear" *ngIf="search_arr.length != 0" (click)="clear()">back</button>
+  <button class="clear" *ngIf="search_arr.length != 0" (click)="clear()">
+    back
+  </button>
 
   <div
     class="gen"
@@ -57,7 +75,6 @@
       let ix = index
     "
   >
-
     <div
       class="wishlist"
       (click)="wishlist()"

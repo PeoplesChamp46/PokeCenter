@@ -29,7 +29,7 @@
 
 .nvbr {
   width: 15vw;
-  height: 40vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,23 +42,46 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+ 
 }
 
 .nav > a {
   width: 100%;
   text-decoration: none;
-  font-size: 2rem;
   color: white;
   text-transform: uppercase;
   text-align: right;
   padding-right: 2vw;
   font-weight: bolder;
+
 }
 
 .nav:hover {
   background: linear-gradient(
     -90deg,
-    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.5),
     rgba(255, 255, 255, 0.2)
   );
 }
+
+.active{
+
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  margin-left: 10%;
+  color: red;
+  content: 'pokemon';
+}
+
+.active > h1{
+
+  color: red;
+
+}
+

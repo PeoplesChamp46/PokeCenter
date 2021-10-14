@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CommonService } from 'src/app/shared/common.service';
 import { pokemonService, typeName, typeColor } from '../pokemon.service';
 
+
 @Component({
   selector: 'app-pokelist',
   templateUrl: './pokelist.component.html',
@@ -151,6 +152,17 @@ export class PokelistComponent implements OnInit {
       color: 'slateblue',
     },
   ];
+
+  gen_arr = [
+    {
+      gen_id : '1',
+      color : 'brown'
+    },
+    {
+      gen_id : '2',
+      color : 'lightblue'
+    },
+  ]
   result: any[] = [];
 
   ttl = false;
@@ -178,6 +190,7 @@ export class PokelistComponent implements OnInit {
 
   search_color = 'white';
   typeshow = false;
+  genshow = false;
 
   wishicon = false;
 
@@ -250,21 +263,26 @@ export class PokelistComponent implements OnInit {
     this.typePoke.find(x => { if(x.type == tevt){
       this.search_color = x.color
     }});
-    console.log(tevt);
+    console.log(this.search_color);
 
     this.search_arr = this.pokemons_arr.filter(
       (x) => x.type[0].toLowerCase() == tevt
     );
-    /* if (this.search_arr.length == 0) {
-        
-          this.search_arr.push(foundtyp);
-        
-      } else {
-        this.search_arr.splice(0, 1);
-        this.search_arr.push(foundtyp);
-      }
-      
-    console.log(foundtyp); */
+  }
+
+  doGen(id : any){
+
+
+
+  
+    this.search_arr =
+      this.pokemons_arr.filter((x) => x.generation == id)
+
+   
+
+   console.log(this.pokemons_arr.length);
+
+
   }
 
   wishlist() {
@@ -273,10 +291,25 @@ export class PokelistComponent implements OnInit {
 
   clear() {
     this.search_arr.splice(0, this.search_arr.length);
+    this.search_color = 'white';
   }
 
   showType(){
 
     this.typeshow = !this.typeshow;
+
+    if(this.genshow == true){
+    this.genshow = false
+
+    }
+  }
+
+  showGen(){
+
+    this.genshow =!this.genshow
+
+    if(this.typeshow == true){
+      this.typeshow = false
+    }
   }
 }

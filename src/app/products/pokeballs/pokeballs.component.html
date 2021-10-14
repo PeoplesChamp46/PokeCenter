@@ -2,7 +2,7 @@
   <div class="card" *ngFor="let pokeball of pokeball_arr">
     <div
       class="card-color ccol"
-      [ngStyle]="{ backgroundColor: getColor(pokeball.name) }"
+      [ngStyle]="{ backgroundColor: pokeball.color }"
     >
       <!-- [style.backgroundColor]="'baccols'" -->
       <img src="../../../assets/pokeball123.png" alt="" />
