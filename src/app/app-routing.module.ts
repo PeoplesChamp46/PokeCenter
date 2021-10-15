@@ -12,6 +12,7 @@ import { StonesComponent } from './products/stones/stones.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', redirectTo : ''},
   {
     path: 'pokemon',
     component: PokemonsComponent,

@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
       status : 'false'
     },
     {
-      name : 'contact',
+      name : 'about',
       link : '../contact/contact.component.html',
       status : 'false'
     }

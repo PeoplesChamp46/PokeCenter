@@ -3,7 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CommonService } from 'src/app/shared/common.service';
 import { pokemonService, typeName, typeColor } from '../pokemon.service';
 
-
 @Component({
   selector: 'app-pokelist',
   templateUrl: './pokelist.component.html',
@@ -155,14 +154,14 @@ export class PokelistComponent implements OnInit {
 
   gen_arr = [
     {
-      gen_id : '1',
-      color : 'brown'
+      gen_id: '1',
+      color: 'brown',
     },
     {
-      gen_id : '2',
-      color : 'lightblue'
+      gen_id: '2',
+      color: 'lightblue',
     },
-  ]
+  ];
   result: any[] = [];
 
   ttl = false;
@@ -205,15 +204,13 @@ export class PokelistComponent implements OnInit {
     this.pokemons_arr = this.pokemonService.pokemons;
 
     console.log(this.pokemons_arr.find((x) => x.id));
-
   }
-
 
   switchCard(ix: any) {
     this.commonService.indexSent(ix);
 
     const test: any = {};
-    test['id'] = this.foundId == '' ? ix + 1 : +this.foundId + 1;
+    test['id'] = this.foundId == '' ? +ix : +this.foundId + 1;
     this.router.navigate(['detail'], {
       queryParams: test,
       queryParamsHandling: null,
@@ -227,6 +224,7 @@ export class PokelistComponent implements OnInit {
 
     this.searchvar = evt;
 
+  
     const found = this.pokemons_arr.find(
       (x) => x.name.english.toLowerCase() == evt
     );
@@ -259,10 +257,11 @@ export class PokelistComponent implements OnInit {
   }
 
   doSome(tevt: string) {
-
-    this.typePoke.find(x => { if(x.type == tevt){
-      this.search_color = x.color
-    }});
+    this.typePoke.find((x) => {
+      if (x.type == tevt) {
+        this.search_color = x.color;
+      }
+    });
     console.log(this.search_color);
 
     this.search_arr = this.pokemons_arr.filter(
@@ -270,19 +269,10 @@ export class PokelistComponent implements OnInit {
     );
   }
 
-  doGen(id : any){
+  doGen(id: any) {
+    this.search_arr = this.pokemons_arr.filter((x) => x.generation == id);
 
-
-
-  
-    this.search_arr =
-      this.pokemons_arr.filter((x) => x.generation == id)
-
-   
-
-   console.log(this.pokemons_arr.length);
-
-
+    console.log(this.pokemons_arr.length);
   }
 
   wishlist() {
@@ -294,22 +284,19 @@ export class PokelistComponent implements OnInit {
     this.search_color = 'white';
   }
 
-  showType(){
-
+  showType() {
     this.typeshow = !this.typeshow;
 
-    if(this.genshow == true){
-    this.genshow = false
-
+    if (this.genshow == true) {
+      this.genshow = false;
     }
   }
 
-  showGen(){
+  showGen() {
+    this.genshow = !this.genshow;
 
-    this.genshow =!this.genshow
-
-    if(this.typeshow == true){
-      this.typeshow = false
+    if (this.typeshow == true) {
+      this.typeshow = false;
     }
   }
 }

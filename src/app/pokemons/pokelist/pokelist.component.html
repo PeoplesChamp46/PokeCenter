@@ -14,7 +14,7 @@
             />
             <button (click)="searchSome(search.value)" class="sercher">
               search
-            </button>
+            </button>zz
           </div>
         </li>
         <li>
@@ -40,7 +40,7 @@
             <div
               class="tab"
               (click)="showGen()"
-              [ngStyle]="{ 'margin-top': !typeshow  ? 0 : '22vh' }"
+              [ngStyle]="{ 'margin-top': !typeshow ? 0 : '21vh' }"
             >
               <h4>Filter By Gen</h4>
               <h3>+</h3>
@@ -80,7 +80,7 @@
       (click)="wishlist()"
       [ngStyle]="{ backgroundColor: wishicon == true ? 'red' : 'white' }"
     ></div>
-    <div class="card" (click)="switchCard(ix)">
+    <div class="card" (click)="switchCard(pokemon.id)">
       <img
         src="../../../assets/images/{{ this.imgid(pokemon.id, 3) + '.png' }}"
         alt=""

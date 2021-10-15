@@ -65,8 +65,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 49,
         "Defense": 49,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
+        "SplAttack": 65,
+        "SplDefense": 65,
         "Speed": 45
       },
       "generation": 1
@@ -87,8 +87,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 62,
         "Defense": 63,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
+        "SplAttack": 80,
+        "SplDefense": 80,
         "Speed": 60
       },
       "generation": 1
@@ -109,8 +109,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 82,
         "Defense": 83,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
+        "SplAttack": 100,
+        "SplDefense": 100,
         "Speed": 80
       },
       "generation": 1
@@ -130,8 +130,8 @@ export class pokemonService {
         "HP": 39,
         "Attack": 52,
         "Defense": 43,
-        "Sp. Attack": 60,
-        "Sp. Defense": 50,
+        "SplAttack": 60,
+        "SplDefense": 50,
         "Speed": 65
       },
       "generation": 1
@@ -151,8 +151,8 @@ export class pokemonService {
         "HP": 58,
         "Attack": 64,
         "Defense": 58,
-        "Sp. Attack": 80,
-        "Sp. Defense": 65,
+        "SplAttack": 80,
+        "SplDefense": 65,
         "Speed": 80
       },
       "generation": 1
@@ -173,8 +173,8 @@ export class pokemonService {
         "HP": 78,
         "Attack": 84,
         "Defense": 78,
-        "Sp. Attack": 109,
-        "Sp. Defense": 85,
+        "SplAttack": 109,
+        "SplDefense": 85,
         "Speed": 100
       },
       "generation": 1
@@ -194,8 +194,8 @@ export class pokemonService {
         "HP": 44,
         "Attack": 48,
         "Defense": 65,
-        "Sp. Attack": 50,
-        "Sp. Defense": 64,
+        "SplAttack": 50,
+        "SplDefense": 64,
         "Speed": 43
       },
       "generation": 1
@@ -215,8 +215,8 @@ export class pokemonService {
         "HP": 59,
         "Attack": 63,
         "Defense": 80,
-        "Sp. Attack": 65,
-        "Sp. Defense": 80,
+        "SplAttack": 65,
+        "SplDefense": 80,
         "Speed": 58
       },
       "generation": 1
@@ -236,8 +236,8 @@ export class pokemonService {
         "HP": 79,
         "Attack": 83,
         "Defense": 100,
-        "Sp. Attack": 85,
-        "Sp. Defense": 105,
+        "SplAttack": 85,
+        "SplDefense": 105,
         "Speed": 78
       },
       "generation": 1
@@ -257,8 +257,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 30,
         "Defense": 35,
-        "Sp. Attack": 20,
-        "Sp. Defense": 20,
+        "SplAttack": 20,
+        "SplDefense": 20,
         "Speed": 45
       },
       "generation": 1
@@ -278,8 +278,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 20,
         "Defense": 55,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
+        "SplAttack": 25,
+        "SplDefense": 25,
         "Speed": 30
       },
       "generation": 1
@@ -300,8 +300,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 45,
         "Defense": 50,
-        "Sp. Attack": 90,
-        "Sp. Defense": 80,
+        "SplAttack": 90,
+        "SplDefense": 80,
         "Speed": 70
       },
       "generation": 1
@@ -322,8 +322,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 35,
         "Defense": 30,
-        "Sp. Attack": 20,
-        "Sp. Defense": 20,
+        "SplAttack": 20,
+        "SplDefense": 20,
         "Speed": 50
       },
       "generation": 1
@@ -344,8 +344,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 25,
         "Defense": 50,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
+        "SplAttack": 25,
+        "SplDefense": 25,
         "Speed": 35
       },
       "generation": 1
@@ -366,8 +366,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 90,
         "Defense": 40,
-        "Sp. Attack": 45,
-        "Sp. Defense": 80,
+        "SplAttack": 45,
+        "SplDefense": 80,
         "Speed": 75
       },
       "generation": 1
@@ -388,8 +388,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 45,
         "Defense": 40,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 56
       },
       "generation": 1
@@ -410,8 +410,8 @@ export class pokemonService {
         "HP": 63,
         "Attack": 60,
         "Defense": 55,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 71
       },
       "generation": 1
@@ -432,8 +432,8 @@ export class pokemonService {
         "HP": 83,
         "Attack": 80,
         "Defense": 75,
-        "Sp. Attack": 70,
-        "Sp. Defense": 70,
+        "SplAttack": 70,
+        "SplDefense": 70,
         "Speed": 101
       },
       "generation": 1
@@ -453,8 +453,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 56,
         "Defense": 35,
-        "Sp. Attack": 25,
-        "Sp. Defense": 35,
+        "SplAttack": 25,
+        "SplDefense": 35,
         "Speed": 72
       },
       "generation": 1
@@ -474,8 +474,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 81,
         "Defense": 60,
-        "Sp. Attack": 50,
-        "Sp. Defense": 70,
+        "SplAttack": 50,
+        "SplDefense": 70,
         "Speed": 97
       },
       "generation": 1
@@ -496,8 +496,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 60,
         "Defense": 30,
-        "Sp. Attack": 31,
-        "Sp. Defense": 31,
+        "SplAttack": 31,
+        "SplDefense": 31,
         "Speed": 70
       },
       "generation": 1
@@ -518,8 +518,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 90,
         "Defense": 65,
-        "Sp. Attack": 61,
-        "Sp. Defense": 61,
+        "SplAttack": 61,
+        "SplDefense": 61,
         "Speed": 100
       },
       "generation": 1
@@ -539,8 +539,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 60,
         "Defense": 44,
-        "Sp. Attack": 40,
-        "Sp. Defense": 54,
+        "SplAttack": 40,
+        "SplDefense": 54,
         "Speed": 55
       },
       "generation": 1
@@ -560,8 +560,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 95,
         "Defense": 69,
-        "Sp. Attack": 65,
-        "Sp. Defense": 79,
+        "SplAttack": 65,
+        "SplDefense": 79,
         "Speed": 80
       },
       "generation": 1
@@ -581,8 +581,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 55,
         "Defense": 40,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 90
       },
       "generation": 1
@@ -602,8 +602,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 90,
         "Defense": 55,
-        "Sp. Attack": 90,
-        "Sp. Defense": 80,
+        "SplAttack": 90,
+        "SplDefense": 80,
         "Speed": 110
       },
       "generation": 1
@@ -623,8 +623,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 75,
         "Defense": 85,
-        "Sp. Attack": 20,
-        "Sp. Defense": 30,
+        "SplAttack": 20,
+        "SplDefense": 30,
         "Speed": 40
       },
       "generation": 1
@@ -644,8 +644,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 100,
         "Defense": 110,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
+        "SplAttack": 45,
+        "SplDefense": 55,
         "Speed": 65
       },
       "generation": 1
@@ -665,8 +665,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 47,
         "Defense": 52,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 41
       },
       "generation": 1
@@ -686,8 +686,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 62,
         "Defense": 67,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
+        "SplAttack": 55,
+        "SplDefense": 55,
         "Speed": 56
       },
       "generation": 1
@@ -708,8 +708,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 92,
         "Defense": 87,
-        "Sp. Attack": 75,
-        "Sp. Defense": 85,
+        "SplAttack": 75,
+        "SplDefense": 85,
         "Speed": 76
       },
       "generation": 1
@@ -729,8 +729,8 @@ export class pokemonService {
         "HP": 46,
         "Attack": 57,
         "Defense": 40,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 50
       },
       "generation": 1
@@ -750,8 +750,8 @@ export class pokemonService {
         "HP": 61,
         "Attack": 72,
         "Defense": 57,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
+        "SplAttack": 55,
+        "SplDefense": 55,
         "Speed": 65
       },
       "generation": 1
@@ -772,8 +772,8 @@ export class pokemonService {
         "HP": 81,
         "Attack": 102,
         "Defense": 77,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
+        "SplAttack": 85,
+        "SplDefense": 75,
         "Speed": 85
       },
       "generation": 1
@@ -793,8 +793,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 45,
         "Defense": 48,
-        "Sp. Attack": 60,
-        "Sp. Defense": 65,
+        "SplAttack": 60,
+        "SplDefense": 65,
         "Speed": 35
       },
       "generation": 1
@@ -814,8 +814,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 70,
         "Defense": 73,
-        "Sp. Attack": 95,
-        "Sp. Defense": 90,
+        "SplAttack": 95,
+        "SplDefense": 90,
         "Speed": 60
       },
       "generation": 1
@@ -835,8 +835,8 @@ export class pokemonService {
         "HP": 38,
         "Attack": 41,
         "Defense": 40,
-        "Sp. Attack": 50,
-        "Sp. Defense": 65,
+        "SplAttack": 50,
+        "SplDefense": 65,
         "Speed": 65
       },
       "generation": 1
@@ -856,8 +856,8 @@ export class pokemonService {
         "HP": 73,
         "Attack": 76,
         "Defense": 75,
-        "Sp. Attack": 81,
-        "Sp. Defense": 100,
+        "SplAttack": 81,
+        "SplDefense": 100,
         "Speed": 100
       },
       "generation": 1
@@ -878,8 +878,8 @@ export class pokemonService {
         "HP": 115,
         "Attack": 45,
         "Defense": 20,
-        "Sp. Attack": 45,
-        "Sp. Defense": 25,
+        "SplAttack": 45,
+        "SplDefense": 25,
         "Speed": 20
       },
       "generation": 1
@@ -900,8 +900,8 @@ export class pokemonService {
         "HP": 140,
         "Attack": 70,
         "Defense": 45,
-        "Sp. Attack": 85,
-        "Sp. Defense": 50,
+        "SplAttack": 85,
+        "SplDefense": 50,
         "Speed": 45
       },
       "generation": 1
@@ -922,8 +922,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 45,
         "Defense": 35,
-        "Sp. Attack": 30,
-        "Sp. Defense": 40,
+        "SplAttack": 30,
+        "SplDefense": 40,
         "Speed": 55
       },
       "generation": 1
@@ -944,8 +944,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 80,
         "Defense": 70,
-        "Sp. Attack": 65,
-        "Sp. Defense": 75,
+        "SplAttack": 65,
+        "SplDefense": 75,
         "Speed": 90
       },
       "generation": 1
@@ -966,8 +966,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 50,
         "Defense": 55,
-        "Sp. Attack": 75,
-        "Sp. Defense": 65,
+        "SplAttack": 75,
+        "SplDefense": 65,
         "Speed": 30
       },
       "generation": 1
@@ -988,8 +988,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 65,
         "Defense": 70,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
+        "SplAttack": 85,
+        "SplDefense": 75,
         "Speed": 40
       },
       "generation": 1
@@ -1010,8 +1010,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 80,
         "Defense": 85,
-        "Sp. Attack": 110,
-        "Sp. Defense": 90,
+        "SplAttack": 110,
+        "SplDefense": 90,
         "Speed": 50
       },
       "generation": 1
@@ -1032,8 +1032,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 70,
         "Defense": 55,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
+        "SplAttack": 45,
+        "SplDefense": 55,
         "Speed": 25
       },
       "generation": 1
@@ -1054,8 +1054,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 95,
         "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 80,
+        "SplAttack": 60,
+        "SplDefense": 80,
         "Speed": 30
       },
       "generation": 1
@@ -1076,8 +1076,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 55,
         "Defense": 50,
-        "Sp. Attack": 40,
-        "Sp. Defense": 55,
+        "SplAttack": 40,
+        "SplDefense": 55,
         "Speed": 45
       },
       "generation": 1
@@ -1098,8 +1098,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 65,
         "Defense": 60,
-        "Sp. Attack": 90,
-        "Sp. Defense": 75,
+        "SplAttack": 90,
+        "SplDefense": 75,
         "Speed": 90
       },
       "generation": 1
@@ -1119,8 +1119,8 @@ export class pokemonService {
         "HP": 10,
         "Attack": 55,
         "Defense": 25,
-        "Sp. Attack": 35,
-        "Sp. Defense": 45,
+        "SplAttack": 35,
+        "SplDefense": 45,
         "Speed": 95
       },
       "generation": 1
@@ -1140,8 +1140,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 100,
         "Defense": 50,
-        "Sp. Attack": 50,
-        "Sp. Defense": 70,
+        "SplAttack": 50,
+        "SplDefense": 70,
         "Speed": 120
       },
       "generation": 1
@@ -1161,8 +1161,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 45,
         "Defense": 35,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 90
       },
       "generation": 1
@@ -1182,8 +1182,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 70,
         "Defense": 60,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
+        "SplAttack": 65,
+        "SplDefense": 65,
         "Speed": 115
       },
       "generation": 1
@@ -1203,8 +1203,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 52,
         "Defense": 48,
-        "Sp. Attack": 65,
-        "Sp. Defense": 50,
+        "SplAttack": 65,
+        "SplDefense": 50,
         "Speed": 55
       },
       "generation": 1
@@ -1224,8 +1224,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 82,
         "Defense": 78,
-        "Sp. Attack": 95,
-        "Sp. Defense": 80,
+        "SplAttack": 95,
+        "SplDefense": 80,
         "Speed": 85
       },
       "generation": 1
@@ -1245,8 +1245,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 80,
         "Defense": 35,
-        "Sp. Attack": 35,
-        "Sp. Defense": 45,
+        "SplAttack": 35,
+        "SplDefense": 45,
         "Speed": 70
       },
       "generation": 1
@@ -1266,8 +1266,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 105,
         "Defense": 60,
-        "Sp. Attack": 60,
-        "Sp. Defense": 70,
+        "SplAttack": 60,
+        "SplDefense": 70,
         "Speed": 95
       },
       "generation": 1
@@ -1287,8 +1287,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 70,
         "Defense": 45,
-        "Sp. Attack": 70,
-        "Sp. Defense": 50,
+        "SplAttack": 70,
+        "SplDefense": 50,
         "Speed": 60
       },
       "generation": 1
@@ -1308,8 +1308,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 110,
         "Defense": 80,
-        "Sp. Attack": 100,
-        "Sp. Defense": 80,
+        "SplAttack": 100,
+        "SplDefense": 80,
         "Speed": 95
       },
       "generation": 1
@@ -1329,8 +1329,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 50,
         "Defense": 40,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 90
       },
       "generation": 1
@@ -1350,8 +1350,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 65,
         "Defense": 65,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 90
       },
       "generation": 1
@@ -1372,8 +1372,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 95,
         "Defense": 95,
-        "Sp. Attack": 70,
-        "Sp. Defense": 90,
+        "SplAttack": 70,
+        "SplDefense": 90,
         "Speed": 70
       },
       "generation": 1
@@ -1393,8 +1393,8 @@ export class pokemonService {
         "HP": 25,
         "Attack": 20,
         "Defense": 15,
-        "Sp. Attack": 105,
-        "Sp. Defense": 55,
+        "SplAttack": 105,
+        "SplDefense": 55,
         "Speed": 90
       },
       "generation": 1
@@ -1414,8 +1414,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 35,
         "Defense": 30,
-        "Sp. Attack": 120,
-        "Sp. Defense": 70,
+        "SplAttack": 120,
+        "SplDefense": 70,
         "Speed": 105
       },
       "generation": 1
@@ -1435,8 +1435,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 50,
         "Defense": 45,
-        "Sp. Attack": 135,
-        "Sp. Defense": 95,
+        "SplAttack": 135,
+        "SplDefense": 95,
         "Speed": 120
       },
       "generation": 1
@@ -1456,8 +1456,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 80,
         "Defense": 50,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 35
       },
       "generation": 1
@@ -1477,8 +1477,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 100,
         "Defense": 70,
-        "Sp. Attack": 50,
-        "Sp. Defense": 60,
+        "SplAttack": 50,
+        "SplDefense": 60,
         "Speed": 45
       },
       "generation": 1
@@ -1498,8 +1498,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 130,
         "Defense": 80,
-        "Sp. Attack": 65,
-        "Sp. Defense": 85,
+        "SplAttack": 65,
+        "SplDefense": 85,
         "Speed": 55
       },
       "generation": 1
@@ -1520,8 +1520,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 75,
         "Defense": 35,
-        "Sp. Attack": 70,
-        "Sp. Defense": 30,
+        "SplAttack": 70,
+        "SplDefense": 30,
         "Speed": 40
       },
       "generation": 1
@@ -1542,8 +1542,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 90,
         "Defense": 50,
-        "Sp. Attack": 85,
-        "Sp. Defense": 45,
+        "SplAttack": 85,
+        "SplDefense": 45,
         "Speed": 55
       },
       "generation": 1
@@ -1564,8 +1564,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 105,
         "Defense": 65,
-        "Sp. Attack": 100,
-        "Sp. Defense": 70,
+        "SplAttack": 100,
+        "SplDefense": 70,
         "Speed": 70
       },
       "generation": 1
@@ -1586,8 +1586,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 40,
         "Defense": 35,
-        "Sp. Attack": 50,
-        "Sp. Defense": 100,
+        "SplAttack": 50,
+        "SplDefense": 100,
         "Speed": 70
       },
       "generation": 1
@@ -1608,8 +1608,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 70,
         "Defense": 65,
-        "Sp. Attack": 80,
-        "Sp. Defense": 120,
+        "SplAttack": 80,
+        "SplDefense": 120,
         "Speed": 100
       },
       "generation": 1
@@ -1630,8 +1630,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 80,
         "Defense": 100,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
+        "SplAttack": 30,
+        "SplDefense": 30,
         "Speed": 20
       },
       "generation": 1
@@ -1652,8 +1652,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 95,
         "Defense": 115,
-        "Sp. Attack": 45,
-        "Sp. Defense": 45,
+        "SplAttack": 45,
+        "SplDefense": 45,
         "Speed": 35
       },
       "generation": 1
@@ -1674,8 +1674,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 120,
         "Defense": 130,
-        "Sp. Attack": 55,
-        "Sp. Defense": 65,
+        "SplAttack": 55,
+        "SplDefense": 65,
         "Speed": 45
       },
       "generation": 1
@@ -1695,8 +1695,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 85,
         "Defense": 55,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
+        "SplAttack": 65,
+        "SplDefense": 65,
         "Speed": 90
       },
       "generation": 1
@@ -1716,8 +1716,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 100,
         "Defense": 70,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
+        "SplAttack": 80,
+        "SplDefense": 80,
         "Speed": 105
       },
       "generation": 1
@@ -1738,8 +1738,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 65,
         "Defense": 65,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 15
       },
       "generation": 1
@@ -1760,8 +1760,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 75,
         "Defense": 110,
-        "Sp. Attack": 100,
-        "Sp. Defense": 80,
+        "SplAttack": 100,
+        "SplDefense": 80,
         "Speed": 30
       },
       "generation": 1
@@ -1782,8 +1782,8 @@ export class pokemonService {
         "HP": 25,
         "Attack": 35,
         "Defense": 70,
-        "Sp. Attack": 95,
-        "Sp. Defense": 55,
+        "SplAttack": 95,
+        "SplDefense": 55,
         "Speed": 45
       },
       "generation": 1
@@ -1804,8 +1804,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 60,
         "Defense": 95,
-        "Sp. Attack": 120,
-        "Sp. Defense": 70,
+        "SplAttack": 120,
+        "SplDefense": 70,
         "Speed": 70
       },
       "generation": 1
@@ -1826,8 +1826,8 @@ export class pokemonService {
         "HP": 52,
         "Attack": 90,
         "Defense": 55,
-        "Sp. Attack": 58,
-        "Sp. Defense": 62,
+        "SplAttack": 58,
+        "SplDefense": 62,
         "Speed": 60
       },
       "generation": 1
@@ -1848,8 +1848,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 85,
         "Defense": 45,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 75
       },
       "generation": 1
@@ -1870,8 +1870,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 110,
         "Defense": 70,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
+        "SplAttack": 60,
+        "SplDefense": 60,
         "Speed": 110
       },
       "generation": 1
@@ -1891,8 +1891,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 45,
         "Defense": 55,
-        "Sp. Attack": 45,
-        "Sp. Defense": 70,
+        "SplAttack": 45,
+        "SplDefense": 70,
         "Speed": 45
       },
       "generation": 1
@@ -1913,8 +1913,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 70,
         "Defense": 80,
-        "Sp. Attack": 70,
-        "Sp. Defense": 95,
+        "SplAttack": 70,
+        "SplDefense": 95,
         "Speed": 70
       },
       "generation": 1
@@ -1934,8 +1934,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 80,
         "Defense": 50,
-        "Sp. Attack": 40,
-        "Sp. Defense": 50,
+        "SplAttack": 40,
+        "SplDefense": 50,
         "Speed": 25
       },
       "generation": 1
@@ -1955,8 +1955,8 @@ export class pokemonService {
         "HP": 105,
         "Attack": 105,
         "Defense": 75,
-        "Sp. Attack": 65,
-        "Sp. Defense": 100,
+        "SplAttack": 65,
+        "SplDefense": 100,
         "Speed": 50
       },
       "generation": 1
@@ -1976,8 +1976,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 65,
         "Defense": 100,
-        "Sp. Attack": 45,
-        "Sp. Defense": 25,
+        "SplAttack": 45,
+        "SplDefense": 25,
         "Speed": 40
       },
       "generation": 1
@@ -1998,8 +1998,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 95,
         "Defense": 180,
-        "Sp. Attack": 85,
-        "Sp. Defense": 45,
+        "SplAttack": 85,
+        "SplDefense": 45,
         "Speed": 70
       },
       "generation": 1
@@ -2020,8 +2020,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 35,
         "Defense": 30,
-        "Sp. Attack": 100,
-        "Sp. Defense": 35,
+        "SplAttack": 100,
+        "SplDefense": 35,
         "Speed": 80
       },
       "generation": 1
@@ -2042,8 +2042,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 50,
         "Defense": 45,
-        "Sp. Attack": 115,
-        "Sp. Defense": 55,
+        "SplAttack": 115,
+        "SplDefense": 55,
         "Speed": 95
       },
       "generation": 1
@@ -2064,8 +2064,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 65,
         "Defense": 60,
-        "Sp. Attack": 130,
-        "Sp. Defense": 75,
+        "SplAttack": 130,
+        "SplDefense": 75,
         "Speed": 110
       },
       "generation": 1
@@ -2086,8 +2086,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 45,
         "Defense": 160,
-        "Sp. Attack": 30,
-        "Sp. Defense": 45,
+        "SplAttack": 30,
+        "SplDefense": 45,
         "Speed": 70
       },
       "generation": 1
@@ -2107,8 +2107,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 48,
         "Defense": 45,
-        "Sp. Attack": 43,
-        "Sp. Defense": 90,
+        "SplAttack": 43,
+        "SplDefense": 90,
         "Speed": 42
       },
       "generation": 1
@@ -2128,8 +2128,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 73,
         "Defense": 70,
-        "Sp. Attack": 73,
-        "Sp. Defense": 115,
+        "SplAttack": 73,
+        "SplDefense": 115,
         "Speed": 67
       },
       "generation": 1
@@ -2149,8 +2149,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 105,
         "Defense": 90,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
+        "SplAttack": 25,
+        "SplDefense": 25,
         "Speed": 50
       },
       "generation": 1
@@ -2170,8 +2170,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 130,
         "Defense": 115,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 75
       },
       "generation": 1
@@ -2191,8 +2191,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 30,
         "Defense": 50,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
+        "SplAttack": 55,
+        "SplDefense": 55,
         "Speed": 100
       },
       "generation": 1
@@ -2212,8 +2212,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 50,
         "Defense": 70,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
+        "SplAttack": 80,
+        "SplDefense": 80,
         "Speed": 150
       },
       "generation": 1
@@ -2234,8 +2234,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 40,
         "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 45,
+        "SplAttack": 60,
+        "SplDefense": 45,
         "Speed": 40
       },
       "generation": 1
@@ -2256,8 +2256,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 95,
         "Defense": 85,
-        "Sp. Attack": 125,
-        "Sp. Defense": 75,
+        "SplAttack": 125,
+        "SplDefense": 75,
         "Speed": 55
       },
       "generation": 1
@@ -2277,8 +2277,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 50,
         "Defense": 95,
-        "Sp. Attack": 40,
-        "Sp. Defense": 50,
+        "SplAttack": 40,
+        "SplDefense": 50,
         "Speed": 35
       },
       "generation": 1
@@ -2298,8 +2298,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 80,
         "Defense": 110,
-        "Sp. Attack": 50,
-        "Sp. Defense": 80,
+        "SplAttack": 50,
+        "SplDefense": 80,
         "Speed": 45
       },
       "generation": 1
@@ -2319,8 +2319,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 120,
         "Defense": 53,
-        "Sp. Attack": 35,
-        "Sp. Defense": 110,
+        "SplAttack": 35,
+        "SplDefense": 110,
         "Speed": 87
       },
       "generation": 1
@@ -2340,8 +2340,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 105,
         "Defense": 79,
-        "Sp. Attack": 35,
-        "Sp. Defense": 110,
+        "SplAttack": 35,
+        "SplDefense": 110,
         "Speed": 76
       },
       "generation": 1
@@ -2361,8 +2361,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 55,
         "Defense": 75,
-        "Sp. Attack": 60,
-        "Sp. Defense": 75,
+        "SplAttack": 60,
+        "SplDefense": 75,
         "Speed": 30
       },
       "generation": 1
@@ -2382,8 +2382,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 65,
         "Defense": 95,
-        "Sp. Attack": 60,
-        "Sp. Defense": 45,
+        "SplAttack": 60,
+        "SplDefense": 45,
         "Speed": 35
       },
       "generation": 1
@@ -2403,8 +2403,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 90,
         "Defense": 120,
-        "Sp. Attack": 85,
-        "Sp. Defense": 70,
+        "SplAttack": 85,
+        "SplDefense": 70,
         "Speed": 60
       },
       "generation": 1
@@ -2425,8 +2425,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 85,
         "Defense": 95,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
+        "SplAttack": 30,
+        "SplDefense": 30,
         "Speed": 25
       },
       "generation": 1
@@ -2447,8 +2447,8 @@ export class pokemonService {
         "HP": 105,
         "Attack": 130,
         "Defense": 120,
-        "Sp. Attack": 45,
-        "Sp. Defense": 45,
+        "SplAttack": 45,
+        "SplDefense": 45,
         "Speed": 40
       },
       "generation": 1
@@ -2468,8 +2468,8 @@ export class pokemonService {
         "HP": 250,
         "Attack": 5,
         "Defense": 5,
-        "Sp. Attack": 35,
-        "Sp. Defense": 105,
+        "SplAttack": 35,
+        "SplDefense": 105,
         "Speed": 50
       },
       "generation": 1
@@ -2489,8 +2489,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 55,
         "Defense": 115,
-        "Sp. Attack": 100,
-        "Sp. Defense": 40,
+        "SplAttack": 100,
+        "SplDefense": 40,
         "Speed": 60
       },
       "generation": 1
@@ -2510,8 +2510,8 @@ export class pokemonService {
         "HP": 105,
         "Attack": 95,
         "Defense": 80,
-        "Sp. Attack": 40,
-        "Sp. Defense": 80,
+        "SplAttack": 40,
+        "SplDefense": 80,
         "Speed": 90
       },
       "generation": 1
@@ -2531,8 +2531,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 40,
         "Defense": 70,
-        "Sp. Attack": 70,
-        "Sp. Defense": 25,
+        "SplAttack": 70,
+        "SplDefense": 25,
         "Speed": 60
       },
       "generation": 1
@@ -2552,8 +2552,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 65,
         "Defense": 95,
-        "Sp. Attack": 95,
-        "Sp. Defense": 45,
+        "SplAttack": 95,
+        "SplDefense": 45,
         "Speed": 85
       },
       "generation": 1
@@ -2573,8 +2573,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 67,
         "Defense": 60,
-        "Sp. Attack": 35,
-        "Sp. Defense": 50,
+        "SplAttack": 35,
+        "SplDefense": 50,
         "Speed": 63
       },
       "generation": 1
@@ -2594,8 +2594,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 92,
         "Defense": 65,
-        "Sp. Attack": 65,
-        "Sp. Defense": 80,
+        "SplAttack": 65,
+        "SplDefense": 80,
         "Speed": 68
       },
       "generation": 1
@@ -2615,8 +2615,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 45,
         "Defense": 55,
-        "Sp. Attack": 70,
-        "Sp. Defense": 55,
+        "SplAttack": 70,
+        "SplDefense": 55,
         "Speed": 85
       },
       "generation": 1
@@ -2637,8 +2637,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 75,
         "Defense": 85,
-        "Sp. Attack": 100,
-        "Sp. Defense": 85,
+        "SplAttack": 100,
+        "SplDefense": 85,
         "Speed": 115
       },
       "generation": 1
@@ -2659,8 +2659,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 45,
         "Defense": 65,
-        "Sp. Attack": 100,
-        "Sp. Defense": 120,
+        "SplAttack": 100,
+        "SplDefense": 120,
         "Speed": 90
       },
       "generation": 1
@@ -2681,8 +2681,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 110,
         "Defense": 80,
-        "Sp. Attack": 55,
-        "Sp. Defense": 80,
+        "SplAttack": 55,
+        "SplDefense": 80,
         "Speed": 105
       },
       "generation": 1
@@ -2703,8 +2703,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 50,
         "Defense": 35,
-        "Sp. Attack": 115,
-        "Sp. Defense": 95,
+        "SplAttack": 115,
+        "SplDefense": 95,
         "Speed": 95
       },
       "generation": 1
@@ -2724,8 +2724,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 83,
         "Defense": 57,
-        "Sp. Attack": 95,
-        "Sp. Defense": 85,
+        "SplAttack": 95,
+        "SplDefense": 85,
         "Speed": 105
       },
       "generation": 1
@@ -2745,8 +2745,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 95,
         "Defense": 57,
-        "Sp. Attack": 100,
-        "Sp. Defense": 85,
+        "SplAttack": 100,
+        "SplDefense": 85,
         "Speed": 93
       },
       "generation": 1
@@ -2766,8 +2766,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 125,
         "Defense": 100,
-        "Sp. Attack": 55,
-        "Sp. Defense": 70,
+        "SplAttack": 55,
+        "SplDefense": 70,
         "Speed": 85
       },
       "generation": 1
@@ -2787,8 +2787,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 100,
         "Defense": 95,
-        "Sp. Attack": 40,
-        "Sp. Defense": 70,
+        "SplAttack": 40,
+        "SplDefense": 70,
         "Speed": 110
       },
       "generation": 1
@@ -2808,8 +2808,8 @@ export class pokemonService {
         "HP": 20,
         "Attack": 10,
         "Defense": 55,
-        "Sp. Attack": 15,
-        "Sp. Defense": 20,
+        "SplAttack": 15,
+        "SplDefense": 20,
         "Speed": 80
       },
       "generation": 1
@@ -2830,8 +2830,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 125,
         "Defense": 79,
-        "Sp. Attack": 60,
-        "Sp. Defense": 100,
+        "SplAttack": 60,
+        "SplDefense": 100,
         "Speed": 81
       },
       "generation": 1
@@ -2852,8 +2852,8 @@ export class pokemonService {
         "HP": 130,
         "Attack": 85,
         "Defense": 80,
-        "Sp. Attack": 85,
-        "Sp. Defense": 95,
+        "SplAttack": 85,
+        "SplDefense": 95,
         "Speed": 60
       },
       "generation": 1
@@ -2873,8 +2873,8 @@ export class pokemonService {
         "HP": 48,
         "Attack": 48,
         "Defense": 48,
-        "Sp. Attack": 48,
-        "Sp. Defense": 48,
+        "SplAttack": 48,
+        "SplDefense": 48,
         "Speed": 48
       },
       "generation": 1
@@ -2894,8 +2894,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 55,
         "Defense": 50,
-        "Sp. Attack": 45,
-        "Sp. Defense": 65,
+        "SplAttack": 45,
+        "SplDefense": 65,
         "Speed": 55
       },
       "generation": 1
@@ -2915,8 +2915,8 @@ export class pokemonService {
         "HP": 130,
         "Attack": 65,
         "Defense": 60,
-        "Sp. Attack": 110,
-        "Sp. Defense": 95,
+        "SplAttack": 110,
+        "SplDefense": 95,
         "Speed": 65
       },
       "generation": 1
@@ -2936,8 +2936,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 65,
         "Defense": 60,
-        "Sp. Attack": 110,
-        "Sp. Defense": 95,
+        "SplAttack": 110,
+        "SplDefense": 95,
         "Speed": 130
       },
       "generation": 1
@@ -2957,8 +2957,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 130,
         "Defense": 60,
-        "Sp. Attack": 95,
-        "Sp. Defense": 110,
+        "SplAttack": 95,
+        "SplDefense": 110,
         "Speed": 65
       },
       "generation": 1
@@ -2978,8 +2978,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 60,
         "Defense": 70,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
+        "SplAttack": 85,
+        "SplDefense": 75,
         "Speed": 40
       },
       "generation": 1
@@ -3000,8 +3000,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 40,
         "Defense": 100,
-        "Sp. Attack": 90,
-        "Sp. Defense": 55,
+        "SplAttack": 90,
+        "SplDefense": 55,
         "Speed": 35
       },
       "generation": 1
@@ -3022,8 +3022,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 60,
         "Defense": 125,
-        "Sp. Attack": 115,
-        "Sp. Defense": 70,
+        "SplAttack": 115,
+        "SplDefense": 70,
         "Speed": 55
       },
       "generation": 1
@@ -3044,8 +3044,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 80,
         "Defense": 90,
-        "Sp. Attack": 55,
-        "Sp. Defense": 45,
+        "SplAttack": 55,
+        "SplDefense": 45,
         "Speed": 55
       },
       "generation": 1
@@ -3066,8 +3066,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 115,
         "Defense": 105,
-        "Sp. Attack": 65,
-        "Sp. Defense": 70,
+        "SplAttack": 65,
+        "SplDefense": 70,
         "Speed": 80
       },
       "generation": 1
@@ -3088,8 +3088,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 105,
         "Defense": 65,
-        "Sp. Attack": 60,
-        "Sp. Defense": 75,
+        "SplAttack": 60,
+        "SplDefense": 75,
         "Speed": 130
       },
       "generation": 1
@@ -3109,8 +3109,8 @@ export class pokemonService {
         "HP": 160,
         "Attack": 110,
         "Defense": 65,
-        "Sp. Attack": 65,
-        "Sp. Defense": 110,
+        "SplAttack": 65,
+        "SplDefense": 110,
         "Speed": 30
       },
       "generation": 1
@@ -3131,8 +3131,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 85,
         "Defense": 100,
-        "Sp. Attack": 95,
-        "Sp. Defense": 125,
+        "SplAttack": 95,
+        "SplDefense": 125,
         "Speed": 85
       },
       "generation": 1
@@ -3153,8 +3153,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 90,
         "Defense": 85,
-        "Sp. Attack": 125,
-        "Sp. Defense": 90,
+        "SplAttack": 125,
+        "SplDefense": 90,
         "Speed": 100
       },
       "generation": 1
@@ -3175,8 +3175,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 100,
         "Defense": 90,
-        "Sp. Attack": 125,
-        "Sp. Defense": 85,
+        "SplAttack": 125,
+        "SplDefense": 85,
         "Speed": 90
       },
       "generation": 1
@@ -3196,8 +3196,8 @@ export class pokemonService {
         "HP": 41,
         "Attack": 64,
         "Defense": 45,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 50
       },
       "generation": 1
@@ -3217,8 +3217,8 @@ export class pokemonService {
         "HP": 61,
         "Attack": 84,
         "Defense": 65,
-        "Sp. Attack": 70,
-        "Sp. Defense": 70,
+        "SplAttack": 70,
+        "SplDefense": 70,
         "Speed": 70
       },
       "generation": 1
@@ -3239,8 +3239,8 @@ export class pokemonService {
         "HP": 91,
         "Attack": 134,
         "Defense": 95,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
+        "SplAttack": 100,
+        "SplDefense": 100,
         "Speed": 80
       },
       "generation": 1
@@ -3260,8 +3260,8 @@ export class pokemonService {
         "HP": 106,
         "Attack": 110,
         "Defense": 90,
-        "Sp. Attack": 154,
-        "Sp. Defense": 90,
+        "SplAttack": 154,
+        "SplDefense": 90,
         "Speed": 130
       },
       "generation": 1
@@ -3281,8 +3281,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 100,
         "Defense": 100,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
+        "SplAttack": 100,
+        "SplDefense": 100,
         "Speed": 100
       },
       "generation": 1
@@ -3302,8 +3302,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 49,
         "Defense": 65,
-        "Sp. Attack": 49,
-        "Sp. Defense": 65,
+        "SplAttack": 49,
+        "SplDefense": 65,
         "Speed": 45
       },
       "generation": 2
@@ -3323,8 +3323,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 62,
         "Defense": 80,
-        "Sp. Attack": 63,
-        "Sp. Defense": 80,
+        "SplAttack": 63,
+        "SplDefense": 80,
         "Speed": 60
       },
       "generation": 2
@@ -3344,8 +3344,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 82,
         "Defense": 100,
-        "Sp. Attack": 83,
-        "Sp. Defense": 100,
+        "SplAttack": 83,
+        "SplDefense": 100,
         "Speed": 80
       },
       "generation": 2
@@ -3365,8 +3365,8 @@ export class pokemonService {
         "HP": 39,
         "Attack": 52,
         "Defense": 43,
-        "Sp. Attack": 60,
-        "Sp. Defense": 50,
+        "SplAttack": 60,
+        "SplDefense": 50,
         "Speed": 65
       },
       "generation": 2
@@ -3386,8 +3386,8 @@ export class pokemonService {
         "HP": 58,
         "Attack": 64,
         "Defense": 58,
-        "Sp. Attack": 80,
-        "Sp. Defense": 65,
+        "SplAttack": 80,
+        "SplDefense": 65,
         "Speed": 80
       },
       "generation": 2
@@ -3407,8 +3407,8 @@ export class pokemonService {
         "HP": 78,
         "Attack": 84,
         "Defense": 78,
-        "Sp. Attack": 109,
-        "Sp. Defense": 85,
+        "SplAttack": 109,
+        "SplDefense": 85,
         "Speed": 100
       },
       "generation": 2
@@ -3428,8 +3428,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 65,
         "Defense": 64,
-        "Sp. Attack": 44,
-        "Sp. Defense": 48,
+        "SplAttack": 44,
+        "SplDefense": 48,
         "Speed": 43
       },
       "generation": 2
@@ -3449,8 +3449,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 80,
         "Defense": 80,
-        "Sp. Attack": 59,
-        "Sp. Defense": 63,
+        "SplAttack": 59,
+        "SplDefense": 63,
         "Speed": 58
       },
       "generation": 2
@@ -3470,8 +3470,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 105,
         "Defense": 100,
-        "Sp. Attack": 79,
-        "Sp. Defense": 83,
+        "SplAttack": 79,
+        "SplDefense": 83,
         "Speed": 78
       },
       "generation": 2
@@ -3491,8 +3491,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 46,
         "Defense": 34,
-        "Sp. Attack": 35,
-        "Sp. Defense": 45,
+        "SplAttack": 35,
+        "SplDefense": 45,
         "Speed": 20
       },
       "generation": 2
@@ -3512,8 +3512,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 76,
         "Defense": 64,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
+        "SplAttack": 45,
+        "SplDefense": 55,
         "Speed": 90
       },
       "generation": 2
@@ -3534,8 +3534,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 30,
         "Defense": 30,
-        "Sp. Attack": 36,
-        "Sp. Defense": 56,
+        "SplAttack": 36,
+        "SplDefense": 56,
         "Speed": 50
       },
       "generation": 2
@@ -3556,8 +3556,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 50,
         "Defense": 50,
-        "Sp. Attack": 86,
-        "Sp. Defense": 96,
+        "SplAttack": 86,
+        "SplDefense": 96,
         "Speed": 70
       },
       "generation": 2
@@ -3578,8 +3578,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 20,
         "Defense": 30,
-        "Sp. Attack": 40,
-        "Sp. Defense": 80,
+        "SplAttack": 40,
+        "SplDefense": 80,
         "Speed": 55
       },
       "generation": 2
@@ -3600,8 +3600,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 35,
         "Defense": 50,
-        "Sp. Attack": 55,
-        "Sp. Defense": 110,
+        "SplAttack": 55,
+        "SplDefense": 110,
         "Speed": 85
       },
       "generation": 2
@@ -3622,8 +3622,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 60,
         "Defense": 40,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 30
       },
       "generation": 2
@@ -3644,8 +3644,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 90,
         "Defense": 70,
-        "Sp. Attack": 60,
-        "Sp. Defense": 70,
+        "SplAttack": 60,
+        "SplDefense": 70,
         "Speed": 40
       },
       "generation": 2
@@ -3666,8 +3666,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 90,
         "Defense": 80,
-        "Sp. Attack": 70,
-        "Sp. Defense": 80,
+        "SplAttack": 70,
+        "SplDefense": 80,
         "Speed": 130
       },
       "generation": 2
@@ -3688,8 +3688,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 38,
         "Defense": 38,
-        "Sp. Attack": 56,
-        "Sp. Defense": 56,
+        "SplAttack": 56,
+        "SplDefense": 56,
         "Speed": 67
       },
       "generation": 2
@@ -3710,8 +3710,8 @@ export class pokemonService {
         "HP": 125,
         "Attack": 58,
         "Defense": 58,
-        "Sp. Attack": 76,
-        "Sp. Defense": 76,
+        "SplAttack": 76,
+        "SplDefense": 76,
         "Speed": 67
       },
       "generation": 2
@@ -3731,8 +3731,8 @@ export class pokemonService {
         "HP": 20,
         "Attack": 40,
         "Defense": 15,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 60
       },
       "generation": 2
@@ -3752,8 +3752,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 25,
         "Defense": 28,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
+        "SplAttack": 45,
+        "SplDefense": 55,
         "Speed": 15
       },
       "generation": 2
@@ -3774,8 +3774,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 30,
         "Defense": 15,
-        "Sp. Attack": 40,
-        "Sp. Defense": 20,
+        "SplAttack": 40,
+        "SplDefense": 20,
         "Speed": 15
       },
       "generation": 2
@@ -3795,8 +3795,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 20,
         "Defense": 65,
-        "Sp. Attack": 40,
-        "Sp. Defense": 65,
+        "SplAttack": 40,
+        "SplDefense": 65,
         "Speed": 20
       },
       "generation": 2
@@ -3817,8 +3817,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 40,
         "Defense": 85,
-        "Sp. Attack": 80,
-        "Sp. Defense": 105,
+        "SplAttack": 80,
+        "SplDefense": 105,
         "Speed": 40
       },
       "generation": 2
@@ -3839,8 +3839,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 50,
         "Defense": 45,
-        "Sp. Attack": 70,
-        "Sp. Defense": 45,
+        "SplAttack": 70,
+        "SplDefense": 45,
         "Speed": 70
       },
       "generation": 2
@@ -3861,8 +3861,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 75,
         "Defense": 70,
-        "Sp. Attack": 95,
-        "Sp. Defense": 70,
+        "SplAttack": 95,
+        "SplDefense": 70,
         "Speed": 95
       },
       "generation": 2
@@ -3882,8 +3882,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 40,
         "Defense": 40,
-        "Sp. Attack": 65,
-        "Sp. Defense": 45,
+        "SplAttack": 65,
+        "SplDefense": 45,
         "Speed": 35
       },
       "generation": 2
@@ -3903,8 +3903,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 55,
         "Defense": 55,
-        "Sp. Attack": 80,
-        "Sp. Defense": 60,
+        "SplAttack": 80,
+        "SplDefense": 60,
         "Speed": 45
       },
       "generation": 2
@@ -3924,8 +3924,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 75,
         "Defense": 85,
-        "Sp. Attack": 115,
-        "Sp. Defense": 90,
+        "SplAttack": 115,
+        "SplDefense": 90,
         "Speed": 55
       },
       "generation": 2
@@ -3945,8 +3945,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 80,
         "Defense": 95,
-        "Sp. Attack": 90,
-        "Sp. Defense": 100,
+        "SplAttack": 90,
+        "SplDefense": 100,
         "Speed": 50
       },
       "generation": 2
@@ -3967,8 +3967,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 20,
         "Defense": 50,
-        "Sp. Attack": 20,
-        "Sp. Defense": 50,
+        "SplAttack": 20,
+        "SplDefense": 50,
         "Speed": 40
       },
       "generation": 2
@@ -3989,8 +3989,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 50,
         "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 80,
+        "SplAttack": 60,
+        "SplDefense": 80,
         "Speed": 50
       },
       "generation": 2
@@ -4010,8 +4010,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 100,
         "Defense": 115,
-        "Sp. Attack": 30,
-        "Sp. Defense": 65,
+        "SplAttack": 30,
+        "SplDefense": 65,
         "Speed": 30
       },
       "generation": 2
@@ -4031,8 +4031,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 75,
         "Defense": 75,
-        "Sp. Attack": 90,
-        "Sp. Defense": 100,
+        "SplAttack": 90,
+        "SplDefense": 100,
         "Speed": 70
       },
       "generation": 2
@@ -4053,8 +4053,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 35,
         "Defense": 40,
-        "Sp. Attack": 35,
-        "Sp. Defense": 55,
+        "SplAttack": 35,
+        "SplDefense": 55,
         "Speed": 50
       },
       "generation": 2
@@ -4075,8 +4075,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 45,
         "Defense": 50,
-        "Sp. Attack": 45,
-        "Sp. Defense": 65,
+        "SplAttack": 45,
+        "SplDefense": 65,
         "Speed": 80
       },
       "generation": 2
@@ -4097,8 +4097,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 55,
         "Defense": 70,
-        "Sp. Attack": 55,
-        "Sp. Defense": 95,
+        "SplAttack": 55,
+        "SplDefense": 95,
         "Speed": 110
       },
       "generation": 2
@@ -4118,8 +4118,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 70,
         "Defense": 55,
-        "Sp. Attack": 40,
-        "Sp. Defense": 55,
+        "SplAttack": 40,
+        "SplDefense": 55,
         "Speed": 85
       },
       "generation": 2
@@ -4139,8 +4139,8 @@ export class pokemonService {
         "HP": 30,
         "Attack": 30,
         "Defense": 30,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
+        "SplAttack": 30,
+        "SplDefense": 30,
         "Speed": 30
       },
       "generation": 2
@@ -4160,8 +4160,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 75,
         "Defense": 55,
-        "Sp. Attack": 105,
-        "Sp. Defense": 85,
+        "SplAttack": 105,
+        "SplDefense": 85,
         "Speed": 30
       },
       "generation": 2
@@ -4182,8 +4182,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 65,
         "Defense": 45,
-        "Sp. Attack": 75,
-        "Sp. Defense": 45,
+        "SplAttack": 75,
+        "SplDefense": 45,
         "Speed": 95
       },
       "generation": 2
@@ -4204,8 +4204,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 45,
         "Defense": 45,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
+        "SplAttack": 25,
+        "SplDefense": 25,
         "Speed": 15
       },
       "generation": 2
@@ -4226,8 +4226,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 85,
         "Defense": 85,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
+        "SplAttack": 65,
+        "SplDefense": 65,
         "Speed": 35
       },
       "generation": 2
@@ -4247,8 +4247,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 65,
         "Defense": 60,
-        "Sp. Attack": 130,
-        "Sp. Defense": 95,
+        "SplAttack": 130,
+        "SplDefense": 95,
         "Speed": 110
       },
       "generation": 2
@@ -4268,8 +4268,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 65,
         "Defense": 110,
-        "Sp. Attack": 60,
-        "Sp. Defense": 130,
+        "SplAttack": 60,
+        "SplDefense": 130,
         "Speed": 65
       },
       "generation": 2
@@ -4290,8 +4290,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 85,
         "Defense": 42,
-        "Sp. Attack": 85,
-        "Sp. Defense": 42,
+        "SplAttack": 85,
+        "SplDefense": 42,
         "Speed": 91
       },
       "generation": 2
@@ -4312,8 +4312,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 75,
         "Defense": 80,
-        "Sp. Attack": 100,
-        "Sp. Defense": 110,
+        "SplAttack": 100,
+        "SplDefense": 110,
         "Speed": 30
       },
       "generation": 2
@@ -4333,8 +4333,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 60,
         "Defense": 60,
-        "Sp. Attack": 85,
-        "Sp. Defense": 85,
+        "SplAttack": 85,
+        "SplDefense": 85,
         "Speed": 85
       },
       "generation": 2
@@ -4354,8 +4354,8 @@ export class pokemonService {
         "HP": 48,
         "Attack": 72,
         "Defense": 48,
-        "Sp. Attack": 72,
-        "Sp. Defense": 48,
+        "SplAttack": 72,
+        "SplDefense": 48,
         "Speed": 48
       },
       "generation": 2
@@ -4375,8 +4375,8 @@ export class pokemonService {
         "HP": 190,
         "Attack": 33,
         "Defense": 58,
-        "Sp. Attack": 33,
-        "Sp. Defense": 58,
+        "SplAttack": 33,
+        "SplDefense": 58,
         "Speed": 33
       },
       "generation": 2
@@ -4397,8 +4397,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 80,
         "Defense": 65,
-        "Sp. Attack": 90,
-        "Sp. Defense": 65,
+        "SplAttack": 90,
+        "SplDefense": 65,
         "Speed": 85
       },
       "generation": 2
@@ -4418,8 +4418,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 65,
         "Defense": 90,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 15
       },
       "generation": 2
@@ -4440,8 +4440,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 90,
         "Defense": 140,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
+        "SplAttack": 60,
+        "SplDefense": 60,
         "Speed": 40
       },
       "generation": 2
@@ -4461,8 +4461,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 70,
         "Defense": 70,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
+        "SplAttack": 65,
+        "SplDefense": 65,
         "Speed": 45
       },
       "generation": 2
@@ -4483,8 +4483,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 75,
         "Defense": 105,
-        "Sp. Attack": 35,
-        "Sp. Defense": 65,
+        "SplAttack": 35,
+        "SplDefense": 65,
         "Speed": 85
       },
       "generation": 2
@@ -4505,8 +4505,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 85,
         "Defense": 200,
-        "Sp. Attack": 55,
-        "Sp. Defense": 65,
+        "SplAttack": 55,
+        "SplDefense": 65,
         "Speed": 30
       },
       "generation": 2
@@ -4526,8 +4526,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 80,
         "Defense": 50,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 30
       },
       "generation": 2
@@ -4547,8 +4547,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 120,
         "Defense": 75,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
+        "SplAttack": 60,
+        "SplDefense": 60,
         "Speed": 45
       },
       "generation": 2
@@ -4569,8 +4569,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 95,
         "Defense": 85,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
+        "SplAttack": 55,
+        "SplDefense": 55,
         "Speed": 85
       },
       "generation": 2
@@ -4591,8 +4591,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 130,
         "Defense": 100,
-        "Sp. Attack": 55,
-        "Sp. Defense": 80,
+        "SplAttack": 55,
+        "SplDefense": 80,
         "Speed": 65
       },
       "generation": 2
@@ -4613,8 +4613,8 @@ export class pokemonService {
         "HP": 20,
         "Attack": 10,
         "Defense": 230,
-        "Sp. Attack": 10,
-        "Sp. Defense": 230,
+        "SplAttack": 10,
+        "SplDefense": 230,
         "Speed": 5
       },
       "generation": 2
@@ -4635,8 +4635,8 @@ export class pokemonService {
         "HP": 80,
         "Attack": 125,
         "Defense": 75,
-        "Sp. Attack": 40,
-        "Sp. Defense": 95,
+        "SplAttack": 40,
+        "SplDefense": 95,
         "Speed": 85
       },
       "generation": 2
@@ -4657,8 +4657,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 95,
         "Defense": 55,
-        "Sp. Attack": 35,
-        "Sp. Defense": 75,
+        "SplAttack": 35,
+        "SplDefense": 75,
         "Speed": 115
       },
       "generation": 2
@@ -4678,8 +4678,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 80,
         "Defense": 50,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
+        "SplAttack": 50,
+        "SplDefense": 50,
         "Speed": 40
       },
       "generation": 2
@@ -4699,8 +4699,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 130,
         "Defense": 75,
-        "Sp. Attack": 75,
-        "Sp. Defense": 75,
+        "SplAttack": 75,
+        "SplDefense": 75,
         "Speed": 55
       },
       "generation": 2
@@ -4720,8 +4720,8 @@ export class pokemonService {
         "HP": 40,
         "Attack": 40,
         "Defense": 40,
-        "Sp. Attack": 70,
-        "Sp. Defense": 40,
+        "SplAttack": 70,
+        "SplDefense": 40,
         "Speed": 20
       },
       "generation": 2
@@ -4742,8 +4742,8 @@ export class pokemonService {
         "HP": 60,
         "Attack": 50,
         "Defense": 120,
-        "Sp. Attack": 90,
-        "Sp. Defense": 80,
+        "SplAttack": 90,
+        "SplDefense": 80,
         "Speed": 30
       },
       "generation": 2
@@ -4764,8 +4764,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 50,
         "Defense": 40,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
+        "SplAttack": 30,
+        "SplDefense": 30,
         "Speed": 50
       },
       "generation": 2
@@ -4786,8 +4786,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 100,
         "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
+        "SplAttack": 60,
+        "SplDefense": 60,
         "Speed": 50
       },
       "generation": 2
@@ -4808,8 +4808,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 55,
         "Defense": 95,
-        "Sp. Attack": 65,
-        "Sp. Defense": 95,
+        "SplAttack": 65,
+        "SplDefense": 95,
         "Speed": 35
       },
       "generation": 2
@@ -4829,8 +4829,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 65,
         "Defense": 35,
-        "Sp. Attack": 65,
-        "Sp. Defense": 35,
+        "SplAttack": 65,
+        "SplDefense": 35,
         "Speed": 65
       },
       "generation": 2
@@ -4850,8 +4850,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 105,
         "Defense": 75,
-        "Sp. Attack": 105,
-        "Sp. Defense": 75,
+        "SplAttack": 105,
+        "SplDefense": 75,
         "Speed": 45
       },
       "generation": 2
@@ -4872,8 +4872,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 55,
         "Defense": 45,
-        "Sp. Attack": 65,
-        "Sp. Defense": 45,
+        "SplAttack": 65,
+        "SplDefense": 45,
         "Speed": 75
       },
       "generation": 2
@@ -4894,8 +4894,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 40,
         "Defense": 70,
-        "Sp. Attack": 80,
-        "Sp. Defense": 140,
+        "SplAttack": 80,
+        "SplDefense": 140,
         "Speed": 70
       },
       "generation": 2
@@ -4916,8 +4916,8 @@ export class pokemonService {
         "HP": 65,
         "Attack": 80,
         "Defense": 140,
-        "Sp. Attack": 40,
-        "Sp. Defense": 70,
+        "SplAttack": 40,
+        "SplDefense": 70,
         "Speed": 70
       },
       "generation": 2
@@ -4938,8 +4938,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 60,
         "Defense": 30,
-        "Sp. Attack": 80,
-        "Sp. Defense": 50,
+        "SplAttack": 80,
+        "SplDefense": 50,
         "Speed": 65
       },
       "generation": 2
@@ -4960,8 +4960,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 90,
         "Defense": 50,
-        "Sp. Attack": 110,
-        "Sp. Defense": 80,
+        "SplAttack": 110,
+        "SplDefense": 80,
         "Speed": 95
       },
       "generation": 2
@@ -4982,8 +4982,8 @@ export class pokemonService {
         "HP": 75,
         "Attack": 95,
         "Defense": 95,
-        "Sp. Attack": 95,
-        "Sp. Defense": 95,
+        "SplAttack": 95,
+        "SplDefense": 95,
         "Speed": 85
       },
       "generation": 2
@@ -5003,8 +5003,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 60,
         "Defense": 60,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
+        "SplAttack": 40,
+        "SplDefense": 40,
         "Speed": 40
       },
       "generation": 2
@@ -5024,8 +5024,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 120,
         "Defense": 120,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
+        "SplAttack": 60,
+        "SplDefense": 60,
         "Speed": 50
       },
       "generation": 2
@@ -5045,8 +5045,8 @@ export class pokemonService {
         "HP": 85,
         "Attack": 80,
         "Defense": 90,
-        "Sp. Attack": 105,
-        "Sp. Defense": 95,
+        "SplAttack": 105,
+        "SplDefense": 95,
         "Speed": 60
       },
       "generation": 2
@@ -5066,8 +5066,8 @@ export class pokemonService {
         "HP": 73,
         "Attack": 95,
         "Defense": 62,
-        "Sp. Attack": 85,
-        "Sp. Defense": 65,
+        "SplAttack": 85,
+        "SplDefense": 65,
         "Speed": 85
       },
       "generation": 2
@@ -5087,8 +5087,8 @@ export class pokemonService {
         "HP": 55,
         "Attack": 20,
         "Defense": 35,
-        "Sp. Attack": 20,
-        "Sp. Defense": 45,
+        "SplAttack": 20,
+        "SplDefense": 45,
         "Speed": 75
       },
       "generation": 2
@@ -5108,8 +5108,8 @@ export class pokemonService {
         "HP": 35,
         "Attack": 35,
         "Defense": 35,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
+        "SplAttack": 35,
+        "SplDefense": 35,
         "Speed": 35
       },
       "generation": 2
@@ -5129,8 +5129,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 95,
         "Defense": 95,
-        "Sp. Attack": 35,
-        "Sp. Defense": 110,
+        "SplAttack": 35,
+        "SplDefense": 110,
         "Speed": 70
       },
       "generation": 2
@@ -5151,8 +5151,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 30,
         "Defense": 15,
-        "Sp. Attack": 85,
-        "Sp. Defense": 65,
+        "SplAttack": 85,
+        "SplDefense": 65,
         "Speed": 65
       },
       "generation": 2
@@ -5172,8 +5172,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 63,
         "Defense": 37,
-        "Sp. Attack": 65,
-        "Sp. Defense": 55,
+        "SplAttack": 65,
+        "SplDefense": 55,
         "Speed": 95
       },
       "generation": 2
@@ -5193,8 +5193,8 @@ export class pokemonService {
         "HP": 45,
         "Attack": 75,
         "Defense": 37,
-        "Sp. Attack": 70,
-        "Sp. Defense": 55,
+        "SplAttack": 70,
+        "SplDefense": 55,
         "Speed": 83
       },
       "generation": 2
@@ -5214,8 +5214,8 @@ export class pokemonService {
         "HP": 95,
         "Attack": 80,
         "Defense": 105,
-        "Sp. Attack": 40,
-        "Sp. Defense": 70,
+        "SplAttack": 40,
+        "SplDefense": 70,
         "Speed": 100
       },
       "generation": 2
@@ -5235,8 +5235,8 @@ export class pokemonService {
         "HP": 255,
         "Attack": 10,
         "Defense": 10,
-        "Sp. Attack": 75,
-        "Sp. Defense": 135,
+        "SplAttack": 75,
+        "SplDefense": 135,
         "Speed": 55
       },
       "generation": 2
@@ -5256,8 +5256,8 @@ export class pokemonService {
         "HP": 90,
         "Attack": 85,
         "Defense": 75,
-        "Sp. Attack": 115,
-        "Sp. Defense": 100,
+        "SplAttack": 115,
+        "SplDefense": 100,
         "Speed": 115
       },
       "generation": 2
@@ -5277,8 +5277,8 @@ export class pokemonService {
         "HP": 115,
         "Attack": 115,
         "Defense": 85,
-        "Sp. Attack": 90,
-        "Sp. Defense": 75,
+        "SplAttack": 90,
+        "SplDefense": 75,
         "Speed": 100
       },
       "generation": 2
@@ -5298,8 +5298,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 75,
         "Defense": 115,
-        "Sp. Attack": 90,
-        "Sp. Defense": 115,
+        "SplAttack": 90,
+        "SplDefense": 115,
         "Speed": 85
       },
       "generation": 2
@@ -5320,8 +5320,8 @@ export class pokemonService {
         "HP": 50,
         "Attack": 64,
         "Defense": 50,
-        "Sp. Attack": 45,
-        "Sp. Defense": 50,
+        "SplAttack": 45,
+        "SplDefense": 50,
         "Speed": 41
       },
       "generation": 2
@@ -5342,8 +5342,8 @@ export class pokemonService {
         "HP": 70,
         "Attack": 84,
         "Defense": 70,
-        "Sp. Attack": 65,
-        "Sp. Defense": 70,
+        "SplAttack": 65,
+        "SplDefense": 70,
         "Speed": 51
       },
       "generation": 2
@@ -5364,8 +5364,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 134,
         "Defense": 110,
-        "Sp. Attack": 95,
-        "Sp. Defense": 100,
+        "SplAttack": 95,
+        "SplDefense": 100,
         "Speed": 61
       },
       "generation": 2
@@ -5386,8 +5386,8 @@ export class pokemonService {
         "HP": 106,
         "Attack": 90,
         "Defense": 130,
-        "Sp. Attack": 90,
-        "Sp. Defense": 154,
+        "SplAttack": 90,
+        "SplDefense": 154,
         "Speed": 110
       },
       "generation": 2
@@ -5408,8 +5408,8 @@ export class pokemonService {
         "HP": 106,
         "Attack": 130,
         "Defense": 90,
-        "Sp. Attack": 110,
-        "Sp. Defense": 154,
+        "SplAttack": 110,
+        "SplDefense": 154,
         "Speed": 90
       },
       "generation": 2
@@ -5430,8 +5430,8 @@ export class pokemonService {
         "HP": 100,
         "Attack": 100,
         "Defense": 100,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
+        "SplAttack": 100,
+        "SplDefense": 100,
         "Speed": 100
       },
       "generation": 2

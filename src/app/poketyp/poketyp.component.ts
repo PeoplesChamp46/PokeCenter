@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { pokemonService } from '../pokemons/pokemon.service';
+import { CommonService } from '../shared/common.service';
 import { poketyp } from '../shared/poketyp.model';
 import { poketypService, elementtype, elecol } from './poketyp.service';
 
@@ -76,13 +77,19 @@ export class PoketypComponent implements OnInit {
     return colorType;
   }
 
+
+
   poketyps: poketyp[] = [];
   pokemons: any[] = [];
+  poke_type_color : any [] = [];
   dummy : any[]= [];
+
+  backcolor : any;
 
   constructor(
     public poketypService: poketypService,
     private pokemonserv: pokemonService,
+    private commonService : CommonService,
     private router : Router,
     private route : ActivatedRoute
   ) {
@@ -91,15 +98,33 @@ export class PoketypComponent implements OnInit {
 
   ngOnInit(): void {
     this.poketyps = this.poketypService.getPoketyps();
+    this.poke_type_color = this.poketypService.typePoke;
   }
 
   doSome(type: any) {
   
     console.log(type);
 
-   this.dummy = this.pokemons.filter(x => x.type[0].toLowerCase() === type)
+   this.dummy = this.pokemons.filter(x => x.type[0].toLowerCase() === type);
+   this.poke_type_color.find(x => {if(x.type == type){
+    this.backcolor =  x.color;
+   }});
+
 
    console.log(this.dummy);
 
+  }
+
+  imgid(number: number, length: number) {
+    let str = '' + number;
+    while (str.length < length) {
+      str = '0' + str;
+    }
+    return str;
+  }
+
+  clear() {
+    this.dummy.splice(0, this.dummy.length);
+    this.backcolor = 'white';
   }
 }

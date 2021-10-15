@@ -11,7 +11,7 @@
 
 export class poketyp{
 
-    constructor(public eltyp: string, public desc: string){
+    constructor(public eltyp: string, public desc: string, public imgpath: string,){
        
     }
 } 

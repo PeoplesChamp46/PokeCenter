@@ -1,15 +1,24 @@
-<div class="main">
-  <div *ngFor="let poketyp of poketyps, let ix = index">
-    <div class="card">
+<div class="main" 
+[ngStyle]="{ backgroundColor: backcolor }"
+>
+<button class="clear" *ngIf="dummy.length != 0" (click)="clear()">
+  back
+</button>
+  <div *ngFor="let poketyp of dummy.length == 0 ? poketyps : dummy, 
+  let ix = index">
+    <div class="card" *ngIf="dummy.length == 0">
       <div
         class="card-color"
         [ngStyle]="{ backgroundColor: getColor(poketyp.eltyp) }"
         (click)="doSome(poketyp.eltyp)"
       >
         <!-- [style.backgroundColor]="'baccols'" -->
+      <img [src]="poketyp.imgpath" alt="">
+
       </div>
 
-      <div class="card-content">
+
+      <div class="card-content" (click)="doSome(poketyp.eltyp)">
         <h1>
           {{ poketyp.eltyp }}
         </h1>
@@ -27,5 +36,57 @@
         </ng-template>
       </div>
     </div>
+
+
+    
+
+    <div class="card1"  *ngIf="dummy.length != 0">
+      <img
+      src="../../../assets/images/{{ this.imgid(poketyp.id, 3) + '.png' }}"
+        alt=""
+      />
+
+      <div
+        class="card-color1"
+      >
+        <!-- [style.backgroundColor]="'baccols'" -->
+      </div>
+
+      <div class="card-content1">
+        <div class="watermark1">
+          {{ poketyp.id }}
+        </div>
+        <h1>
+          {{ poketyp.name.english }}
+        </h1>
+
+        <button>more</button>
+
+        <div class="type-content1">
+          <div
+            class="type1"
+            *ngFor="let typeData of poketyp.type; let i = index"
+          >
+            <p
+              *ngIf="i == 0"
+              [ngStyle]="{ backgroundColor: getColor(poketyp.type[0]) }"
+            >
+              {{ typeData }}
+            </p>
+
+            <p
+              *ngIf="i == 1"
+              [ngStyle]="{ backgroundColor: getColor(poketyp.type[1]) }"
+            >
+              {{ typeData }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
   </div>
 </div>

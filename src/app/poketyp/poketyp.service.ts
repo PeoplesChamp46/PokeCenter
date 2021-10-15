@@ -45,24 +45,99 @@ export enum elecol {
 
 export class poketypService {
   public poketyps: poketyp[] = [
-    new poketyp('water', 'lorem'),
-    new poketyp('fire', 'lorem'),
-    new poketyp('grass', 'lorem'),
-    new poketyp('electric', 'lorem'),
-    new poketyp('ground', 'lorem'),
-    new poketyp('rock', 'lorem'),
-    new poketyp('ice', 'lorem'),
-    new poketyp('poison', 'lorem'),
-    new poketyp('flying', 'lorem'),
-    new poketyp('psychic', 'lorem'),
-    new poketyp('bug', 'lorem'),
-    new poketyp('fighting', 'lorem'),
-    new poketyp('ghost', 'lorem'),
-    new poketyp('dark', 'lorem'),
-    new poketyp('dragon', 'lorem'),
-    new poketyp('steel', 'lorem'),
-    new poketyp('fairy', 'lorem'),
-    new poketyp('normal', 'lorem'),
+    new poketyp('water', 'lorem', '../../assets/type-icon/water.svg'),
+    new poketyp('fire', 'lorem', '../../assets/type-icon/fire.svg'),
+    new poketyp('grass', 'lorem', '../../assets/type-icon/grass.svg'),
+    new poketyp('electric', 'lorem', '../../assets/type-icon/electric.svg'),
+    new poketyp('ground', 'lorem', '../../assets/type-icon/ground.svg'),
+    new poketyp('rock', 'lorem', '../../assets/type-icon/rock.svg'),
+    new poketyp('ice', 'lorem', '../../assets/type-icon/ice.svg'),
+    new poketyp('poison', 'lorem', '../../assets/type-icon/poison.svg'),
+    new poketyp('flying', 'lorem', '../../assets/type-icon/flying.svg'),
+    new poketyp('psychic', 'lorem', '../../assets/type-icon/psychic.svg'),
+    new poketyp('bug', 'lorem', '../../assets/type-icon/bug.svg'),
+    new poketyp('fighting', 'lorem', '../../assets/type-icon/fighting.svg'),
+    new poketyp('ghost', 'lorem', '../../assets/type-icon/ghost.svg'),
+    new poketyp('dark', 'lorem', '../../assets/type-icon/dark.svg'),
+    new poketyp('dragon', 'lorem', '../../assets/type-icon/dragon.svg'),
+    new poketyp('steel', 'lorem', '../../assets/type-icon/steel.svg'),
+    new poketyp('fairy', 'lorem', '../../assets/type-icon/fairy.svg'),
+    new poketyp('normal', 'lorem', '../../assets/type-icon/normal.svg'),
+  ];
+
+  typePoke = [
+    {
+      type: 'normal',
+      color: 'palegoldenrod',
+    },
+    {
+      type: 'fire',
+      color: 'darkorange',
+    },
+    {
+      type: 'water',
+      color: 'steelblue',
+    },
+    {
+      type: 'grass',
+      color: 'green',
+    },
+    {
+      type: 'steel',
+      color: 'lightgrey',
+    },
+    {
+      type: 'flying',
+      color: 'plum',
+    },
+    {
+      type: 'fighting',
+      color: 'darkred',
+    },
+    {
+      type: 'bug',
+      color: 'greenyellow',
+    },
+    {
+      type: 'poison',
+      color: 'purple',
+    },
+    {
+      type: 'electric',
+      color: 'yellow',
+    },
+    {
+      type: 'dark',
+      color: 'burlywood',
+    },
+    {
+      type: 'rock',
+      color: 'darkkhaki',
+    },
+    {
+      type: 'ground',
+      color: 'sienna',
+    },
+    {
+      type: 'ice',
+      color: 'lightskyblue',
+    },
+    {
+      type: 'psychic',
+      color: 'deeppink',
+    },
+    {
+      type: 'ghost',
+      color: 'indigo',
+    },
+    {
+      type: 'fairy',
+      color: 'lightpink',
+    },
+    {
+      type: 'dragon',
+      color: 'slateblue',
+    },
   ];
 
   getPoketyps() {
