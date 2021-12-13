@@ -14,6 +14,7 @@ import { StonesComponent } from './products/stones/stones.component';
 import { PortionsComponent } from './products/portions/portions.component';
 import { DetailComponent } from './pokemons/detail/detail.component';
 import { PokelistComponent } from './pokemons/pokelist/pokelist.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PokelistComponent } from './pokemons/pokelist/pokelist.component';
     StonesComponent,
     PortionsComponent,
     DetailComponent,
-    PokelistComponent
+    PokelistComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

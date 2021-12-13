@@ -62,6 +62,7 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-transform: capitalize;
 
   background-color: rgba(0, 0, 0, 0.2);
 

@@ -83,6 +83,10 @@ export class PoketypComponent implements OnInit {
   pokemons: any[] = [];
   poke_type_color : any [] = [];
   dummy : any[]= [];
+  /* dummy1 : any[]= [];
+  dummy2 : any[]= []; */
+
+
 
   backcolor : any;
 
@@ -106,12 +110,34 @@ export class PoketypComponent implements OnInit {
     console.log(type);
 
    this.dummy = this.pokemons.filter(x => x.type[0].toLowerCase() === type);
+
+
+   let dummy1 = this.pokemons.filter(x =>  x.type.length == 2);
+    let dummy2 = dummy1.filter(x => x.type[1].toLowerCase() === type);
+
+    this.dummy = [...this.dummy, ...dummy2] 
+
    this.poke_type_color.find(x => {if(x.type == type){
     this.backcolor =  x.color;
    }});
 
 
-   console.log(this.dummy);
+  console.log(dummy2);
+
+  }
+
+  opendetails(pokeid : number){
+
+    console.log(pokeid);
+
+    const test: any = {};
+    test['id'] = pokeid;
+    this.router.navigate(['pokemon/detail'], {
+      queryParams: test,
+      queryParamsHandling: null,
+      /* relativeTo: this.route, */
+    });
+
 
   }
 
@@ -122,6 +148,7 @@ export class PoketypComponent implements OnInit {
     }
     return str;
   }
+
 
   clear() {
     this.dummy.splice(0, this.dummy.length);
