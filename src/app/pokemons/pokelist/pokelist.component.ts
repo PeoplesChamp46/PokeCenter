@@ -224,8 +224,29 @@ export class PokelistComponent implements OnInit {
 
     this.searchvar = evt;
 
+    this.search_arr = this.pokemons_arr.filter(
+      (x) => x.name.english.toLowerCase().includes(evt)
+      /* for live keyup search use .includes(data) */
+    );
+/* 
+    if (found == undefined) {
+      this.search_arr = [];
+      return;
+    }
+
+    if (evt != '') {
+      if (this.search_arr.length == 0) {
+        if (found != null) {
+          this.search_arr = found;
+        }
+      } else {
+        this.search_arr.splice(0, this.search_arr.length);
+        this.search_arr.push(found);
+      }
+    } */
+
   
-    const found = this.pokemons_arr.find(
+   /*  const found = this.pokemons_arr.find(
       (x) => x.name.english.toLowerCase() == evt
     );
 
@@ -243,8 +264,7 @@ export class PokelistComponent implements OnInit {
         this.search_arr.splice(0, this.search_arr.length);
         this.search_arr.push(found);
       }
-    }
-
+    } */
     console.log(this.search_arr);
   }
 
@@ -256,17 +276,22 @@ export class PokelistComponent implements OnInit {
     return str;
   }
 
-  doSome(tevt: string) {
+  doSome(type_evt: string) {
     this.typePoke.find((x) => {
-      if (x.type == tevt) {
+      if (x.type == type_evt) {
         this.search_color = x.color;
       }
     });
     console.log(this.search_color);
 
     this.search_arr = this.pokemons_arr.filter(
-      (x) => x.type[0].toLowerCase() == tevt
+      (x) => x.type[0].toLowerCase() == type_evt
     );
+
+    let dummy1 = this.pokemons_arr.filter(x =>  x.type.length == 2);
+    let dummy2 = dummy1.filter(x => x.type[1].toLowerCase() === type_evt);
+
+    this.search_arr = [...this.search_arr, ...dummy2] 
   }
 
   doGen(id: any) {

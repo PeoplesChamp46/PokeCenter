@@ -11,7 +11,7 @@ export enum stoneName {
   shiny = 'shiny',
   dusk = 'dusk',
   dawn = 'dawn',
-  ice = 'ice',
+  ever = 'ever',
   
  }
 
@@ -20,14 +20,14 @@ export enum stoneColor {
 
   fire = "darkorange", 
   water = "steelblue",
-  thunder = "palegoldenrod",
+  thunder = "rgb(220, 255, 0)", 
   leaf = "green",
-  moon = "plum",
+  moon = "darkkhaki",
   sun = "darkred",
-  shiny = "purple",
-  dusk = "yellow",
-  dawn = "sienna",
-  ice = "darkkhaki",
+  shiny = "rgb(255, 255, 100)",
+  dusk = "plum",
+  dawn = "skyblue",
+  ever = "lightgrey",
   default = 'black'
 
  }
@@ -76,8 +76,8 @@ export class StonesComponent implements OnInit {
         case stoneName.dawn:
         stoneType = stoneColor.dawn;
         break;
-        case stoneName.ice:
-        stoneType = stoneColor.ice;
+        case stoneName.ever:
+        stoneType = stoneColor.ever;
         break;
         
           default:
@@ -131,7 +131,7 @@ export class StonesComponent implements OnInit {
       catchrate : '1x'
     },
     {
-      name : 'ice',
+      name : 'ever',
       catchrate : '1x'
     }
 

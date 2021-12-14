@@ -124,7 +124,7 @@ export class DetailComponent implements OnInit {
       this.show(+this.r_id);
     });
 
-    console.log(this.result.type[0]);
+    console.log(this.r_id);
   }
 
   show(indexNum: any) {
@@ -147,49 +147,113 @@ export class DetailComponent implements OnInit {
       this.isLoaded = true;
     }
     console.log(this.result);
+    console.log(this.result1);
+    console.log(this.result2);
   }
 
   backClick() {
     this._location.back();
+    /* this.router.navigate(['pokemon']); */
   }
 
   previus() {
+
+    /* let r_val1 : any;
+    
+    if(this.r_id == 0){
+      r_val1 = this.pokemons_arr.length - 1;
+    } else {
+      r_val1 = this.r_id - 1;
+
+    }
+
+    this.result1 = this.pokemons_arr[r_val1];
+    this.result2 = this.pokemons_arr[r_val1 + 2]; */
+
+    
+
     this.r_id -= 1;
 
-    this.result1 = this.pokemons_arr.find((x) => x.id == this.r_id);
-
-    this.result = this.result1;
-
     let r_val1 : any;
-    if(this.r_id == 1){
-      r_val1 = this.pokemons_arr.length
+    if(this.r_id == 0){
+      this.r_id = 251;
+      r_val1 = this.r_id - 1
+
     } else {
       r_val1 = this.r_id - 1
     }
 
+   
+
+/*     if(this.r_id == 0){
+      this.r_id = 251;
+    } else {
+      r_val1 = this.r_id - 1
+    }
+ */
     this.result1 = this.pokemons_arr.find((x) => x.id == r_val1);
+    
     this.result2 = this.pokemons_arr.find((x) => x.id == this.r_id + 1);
 
-    console.log(r_val1);
+    let result3 = this.pokemons_arr.find((x) => x.id == this.r_id);
+
+    this.result = result3;
+
+    console.log(this.result1);
+    console.log(this.result2);
+
+   /*  const test: any = {};
+    test['id'] = +this.r_id;
+    this.router.navigate(['pokemon/detail'], {
+      queryParams: test,
+      queryParamsHandling: null,
+      
+    }); */
   }
 
   next() {
-    this.r_id = parseInt(this.r_id) + 1;
 
-    this.result2 = this.pokemons_arr.find((x) => x.id == this.r_id);
+    if(this.r_id == 251 ){
+      this.r_id = 1
 
-    this.result = this.result2;
+    } else {
+      this.r_id = parseInt(this.r_id) + 1;
+
+    }
+
+   
 
     this.result2 = this.pokemons_arr.find((x) => x.id == this.r_id + 1);
+
     this.result1 = this.pokemons_arr.find((x) => x.id == this.r_id - 1);
-    console.log(this.result);
+
+
+    let result3 = this.pokemons_arr.find((x) => x.id == this.r_id);
+
+    this.result = result3;
+
+    
+    console.log(this.r_id);
+    console.log(this.result1);
+    console.log(this.result2);
+
+ /*    const test: any = {};
+    test['id'] = +this.r_id;
+    this.router.navigate(['pokemon/detail'], {
+      queryParams: test,
+      queryParamsHandling: null,
+      
+    }); */
+    
   }
 
   imgid(number : number, length : number) {
-    let str = '' + number;
+    let str = '' + Math.abs(number);
     while (str.length < length) {
       str = '0' + str;
     }
     return str;
+
+    console.log(number);
   }
 }

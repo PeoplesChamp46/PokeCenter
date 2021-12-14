@@ -23,9 +23,9 @@
           {{ poketyp.eltyp }}
         </h1>
 
-        <p>
+     <!--    <p>
           {{ poketyp.desc }}
-        </p>
+        </p> -->
 
         <button>more</button>
         <ng-template>
@@ -39,8 +39,9 @@
 
 
     
-
-    <div class="card1"  *ngIf="dummy.length != 0">
+    
+    <div class="card1"  *ngIf="dummy.length != 0"
+         (click)="opendetails(poketyp.id)">
       <img
       src="../../../assets/images/{{ this.imgid(poketyp.id, 3) + '.png' }}"
         alt=""
@@ -69,14 +70,14 @@
           >
             <p
               *ngIf="i == 0"
-              [ngStyle]="{ backgroundColor: getColor(poketyp.type[0]) }"
+              [ngStyle]="{ backgroundColor: getColor(poketyp.type[0].toLowerCase()) }"
             >
               {{ typeData }}
             </p>
 
             <p
               *ngIf="i == 1"
-              [ngStyle]="{ backgroundColor: getColor(poketyp.type[1]) }"
+              [ngStyle]="{ backgroundColor: getColor(poketyp.type[1].toLowerCase()) }"
             >
               {{ typeData }}
             </p>
